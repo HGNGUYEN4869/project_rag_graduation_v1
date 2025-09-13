@@ -99,6 +99,8 @@ def merge_lines(elements, line_gap=15):
         merged.append(buffer.strip())
     return merged
 
+
+
 # chuẩn hóa tên sách 
 def normalize_book_name(file_path: str) -> str:
     # Lấy tên file không có đuôi .pdf
