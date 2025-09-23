@@ -10,63 +10,58 @@ from PIL import Image
 import re
 import os
 
-def preprocess_image(pil_image):
-    img = np.array(pil_image.convert("L"))
-    img = cv2.resize(img, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
-    img = cv2.GaussianBlur(img, (3, 3), 0)
-    img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-    return Image.fromarray(img)
+# def preprocess_image(pil_image):
+#     img = np.array(pil_image.convert("L"))
+#     img = cv2.resize(img, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+#     img = cv2.GaussianBlur(img, (3, 3), 0)
+#     img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+#     return Image.fromarray(img)
 
-def ocr_pytesseract(pil_image):
-    pil_image = preprocess_image(pil_image)
-    text = pytesseract.image_to_string(pil_image, lang="vie+eng")
-    return text.strip()
+# def ocr_pytesseract(pil_image):
+#     pil_image = preprocess_image(pil_image)
+#     text = pytesseract.image_to_string(pil_image, lang="vie+eng")
+#     return text.strip()
 
 def extract_page_elements(page, path, page_num):
     elements = []
 
-    # 1. Text thật (theo dòng)
-    lines = page.extract_text_lines() if hasattr(page, "extract_text_lines") else None
-    if not lines:
-        # fallback nếu không có extract_text_lines
-        text = page.extract_text()
-        if text:
+    # 1. Text thật (text layer)
+    text = page.extract_text(x_tolerance=2, y_tolerance=2)
+    if text:
+        for line in text.split("\n"):
+            # Bỏ dòng "trang X"
+            if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE):
+                continue
+            bbox = page.chars[0] if page.chars else {"top": 0}
             elements.append({
                 "id": str(uuid.uuid4()),
-                "text": text.strip(),
-                "top": 0,
-                "metadata": {"page": page_num, "source": path, "type": "text"}
+                "text": line.strip(),
+                "top": bbox["top"] if "top" in bbox else 0,
+                "metadata": {
+                    "page": page_num,
+                    "source": path,
+                    "type": "text"
+                }
             })
     else:
-        for line in lines:
+        # 2. OCR fallback nếu không có text layer
+        pil_image = page.to_image(resolution=300).original
+        ocr_text = pytesseract.image_to_string(pil_image, lang="vie+eng")
+        for i, line in enumerate(ocr_text.split("\n")):
+            if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE):
+                continue
             elements.append({
                 "id": str(uuid.uuid4()),
-                "text": line["text"].strip(),
-                "top": line["top"],
-                "metadata": {"page": page_num, "source": path, "type": "text"}
+                "text": line.strip(),
+                "top": i * 20,  # giả định khoảng cách dòng
+                "metadata": {
+                    "page": page_num,
+                    "source": path,
+                    "type": "ocr_text"
+                }
             })
 
-    # 2. Ảnh chứa chữ
-    for img in page.images:
-        try:
-            x0, top, x1, bottom = img["x0"], img["top"], img["x1"], img["bottom"]
-            pil_image = page.within_bbox((x0, top, x1, bottom)).to_image(resolution=300).original
-            text_img = ocr_pytesseract(pil_image)
-            if text_img:
-                elements.append({
-                    "id": str(uuid.uuid4()),
-                    "text": text_img,
-                    "top": top,
-                    "metadata": {
-                        "page": page_num,
-                        "source": path,
-                        "type": "ocr_text"
-                    }
-                })
-        except Exception as e:
-            print(f"⚠️ OCR lỗi ở trang {page_num}: {e}")
-
-    # 3. Sắp xếp theo vị trí top (từ trên xuống)
+    # 3. Sắp xếp theo vị trí top
     elements.sort(key=lambda x: x["top"])
     return elements
 
@@ -100,7 +95,6 @@ def merge_lines(elements, line_gap=15):
     return merged
 
 
-
 # chuẩn hóa tên sách 
 def normalize_book_name(file_path: str) -> str:
     # Lấy tên file không có đuôi .pdf
@@ -116,27 +110,33 @@ def load_pdf(file_path):
     book_name = normalize_book_name(file_path)
     with pdfplumber.open(file_path) as pdf:
         for page_num, page in enumerate(pdf.pages, start=1):
-            elements = []
-            # Lấy text thật (text layer)
-            text = page.extract_text(x_tolerance=2, y_tolerance=2)
-            if text:
-                for line in text.split("\n"):
-                    if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE): 
-                        continue
-                    bbox = page.chars[0] if page.chars else {"top":0}
-                    elements.append({"text": line, "top": bbox["top"] if "top" in bbox else 0})
-            # else:
-            #     # OCR nếu không có text layer
-            #     pil_image = page.to_image(resolution=300).original
-                # ocr_text = pytesseract.image_to_string(pil_image, lang="vie+eng")
-                # for i, line in enumerate(ocr_text.split("\n")):
-                #     if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE):
-                #         continue
-                #     elements.append({"text": line, "top": i*20})  # giả định khoảng cách dòng
+            elements = extract_page_elements(page, file_path, page_num)
 
+            # Merge lại thành đoạn text hoàn chỉnh
             merged_content = merge_lines(elements)
             if merged_content:
                 data.append({"page": page_num, "content": merged_content})
+            # elements = []
+            # # Lấy text thật (text layer)
+            # text = page.extract_text(x_tolerance=2, y_tolerance=2)
+            # if text:
+            #     for line in text.split("\n"):
+            #         if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE): 
+            #             continue
+            #         bbox = page.chars[0] if page.chars else {"top":0}
+            #         elements.append({"text": line, "top": bbox["top"] if "top" in bbox else 0})
+            # # else:
+            # #     # OCR nếu không có text layer
+            # #     pil_image = page.to_image(resolution=300).original
+            #     # ocr_text = pytesseract.image_to_string(pil_image, lang="vie+eng")
+            #     # for i, line in enumerate(ocr_text.split("\n")):
+            #     #     if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE):
+            #     #         continue
+            #     #     elements.append({"text": line, "top": i*20})  # giả định khoảng cách dòng
+
+            # merged_content = merge_lines(elements)
+            # if merged_content:
+            #     data.append({"page": page_num, "content": merged_content})
     final_data = {book_name: data}
     write_new_json(final_data, DB_JSON)
     os.startfile(DB_JSON)
