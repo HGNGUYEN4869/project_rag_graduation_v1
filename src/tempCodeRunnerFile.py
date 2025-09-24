@@ -1,1 +1,1 @@
-HuggingFaceEmbeddings
+python src/chunking.py semantic --max_chars 500 --n_clusters 8

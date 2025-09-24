@@ -2,9 +2,9 @@ import pdfplumber
 import pytesseract
 from PIL import Image
 import uuid
-import cv2
 import numpy as np
-from transcriptToJson import write_new_json
+from docx import Document
+from transcriptToJson import write_next_json
 from enviroment.envGlobal import DB_JSON
 from PIL import Image
 import re
@@ -138,5 +138,25 @@ def load_pdf(file_path):
             # if merged_content:
             #     data.append({"page": page_num, "content": merged_content})
     final_data = {book_name: data}
-    write_new_json(final_data, DB_JSON)
+    write_next_json(final_data, DB_JSON)
+    os.startfile(DB_JSON)
+
+def load_docx(file_path):
+    data = []
+    book_name = normalize_book_name(file_path)
+
+    doc = Document(file_path)
+    page_num = 1  # Word không có khái niệm page, tạm để 1
+    merged_content = []
+
+    for para in doc.paragraphs:
+        text = para.text.strip()
+        if text:
+            merged_content.append(text)
+
+    if merged_content:
+        data.append({"page": page_num, "content": merged_content})
+
+    final_data = {book_name: data}
+    write_next_json(final_data, DB_JSON)
     os.startfile(DB_JSON)

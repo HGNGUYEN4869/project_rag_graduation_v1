@@ -8,119 +8,1054 @@
     },
     "chunks": [
       {
-        "id": "edc7a8bc-57c8-493a-b9a7-1fbd4b89291d",
+        "id": "bda75a89-cd05-419b-aafb-354d695d323f",
         "text": "Các phát hành của 3GPP 1.3. Kiến trúc của GSM, UMTS và LTE. Kiến trúc của GSM, UMTS và LTE. Kiến trúc của GSM, UMTS và LTE. Phạm vi của 5G: 1.2 Các phát hành của 3GPP Bảng 1.1 Thông số kỹ thuật 3GPP phát hành cho UMTS, LTE và 5G. Phát Ngày kết thúc Các tính năng mới hành R-99 Tháng 121999 UMTS, WCDMA R-4 Tháng 62001 TD-SCDMA R-5 Tháng 122002 HSDPA, phân hệ đa phương tiện IP R-6 Tháng 92005 HSUPA R-7 Tháng 32008 Tăng cường của HSPA R-8 Tháng 32009 LTE R-9 Tháng 32010 Các dịch vị định viị cho LTE",
         "chars": 500
       },
       {
-        "id": "3ac0864c-1d4d-457d-afd3-ad634e2f310c",
+        "id": "c168a140-12eb-4a2d-b037-d8f85d2c43b5",
         "text": "R-10 Tháng 62011 LTE-Adv, tập hợp sóng mang R-11 Tháng 32013 Truyền dẫn đa điểm phối hợp R-12 Tháng 32015 Kết nối kép, LTE sidelink R-13 Tháng 32016 LTE-Adv Pro, eMTC, NB-IoT R-14 Tháng 62017 Dịch vụ V2X cho LTE R-15 Tháng 62019 5G pha 1 R-16 Tháng 62020 5G pha 2 R-17 Tháng 122021 (mục tiêu) Tăng cường của 5G https:www.3gpp.org Máy di động RAN Core network (CSPS) 3GPP (2020) 3GPP: The mobile broadband standard. www.3gpp.org (accessed 18 January 2020). Introduction to mobile network engineering G",
         "chars": 500
       },
       {
-        "id": "bf7d4b86-1a20-498f-8023-f0cf74331456",
+        "id": "1f26a61c-4c8d-4271-b783-3ab95101c182",
         "text": "SM, 3G-WCDMA, LTE and the road to 5G.",
         "chars": 37
       },
       {
-        "id": "13afe5fd-f369-49d5-b3fe-0c827b6324f1",
+        "id": "0edcf619-59ee-4570-ad88-25b12bc0e75a",
         "text": "PGS. TS Đặng Thế Ngọc, PGS. TS. TDMA 2. FDMA 3. CDMA 4. OFDMA Hình 1.6. Shannon, C.E. (1948). A mathematical theory of communication. The Bell System Technical Journal 27: 379428. and 623656. Kukushkin, Alexander (2018). John Wiley Sons.",
         "chars": 237
       },
       {
-        "id": "a9c9d38c-20c4-4d45-9481-181b4b635d0e",
+        "id": "ea3d6608-1936-4bfe-b915-16424818e93c",
         "text": "Tên học phần: Sách giáo khoa: Nội dung học phần: Nội dung học phần: NỘI DUNG 1.1. Tài liệu tham khảo 1.",
         "chars": 103
       },
       {
-        "id": "f90dad6b-da13-43a0-843b-0d8b0db57be8",
+        "id": "5497dfdd-5672-4cc7-9278-75dde628b3a5",
         "text": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG BÀI GIẢNG MÔN THÔNG TIN DI ĐỘNG Giảng viên: Lê Tùng Hoa E-mail: hoaltptit.edu.vn Bộ môn: Vô tuyến Khoa Viễn thông 1 Hà Nội Thông tin di động (Mobile communication) Tổng lượng kiến thức: Chương 1: Giới thiệu tổng quan về thông tin di động, khái quát chung về sự phát triển, các đặc điểm chính về công nghệ và tiêu chuẩn của các hệ thống thông tin di động. CHƯƠNG 1 TỔNG QUAN VỀ THÔNG TIN DI ĐỘNG Lịch sử của hệ thống thông tin di động 1.2. Kiến trúc của một hệ",
         "chars": 500
       },
       {
-        "id": "11afec15-9fd7-42ee-a034-677d2ecb8d40",
+        "id": "203afc5e-7848-4151-805a-fca64669b05a",
         "text": "thống thông tin di động 1.4. Các kỹ thuật cơ bản trong thông tin di động Lịch sử của hệ thống thông tin di động Giới thiệu chung Hình 1.1. Lịch sử phát triển của hệ thống thông tin di động. thông tin di động được giới thiệu lần đầu tiên vào đầu những năm 1980, cứ khoảng 10 năm lại có một thế hệ hệ thống thông tin di động mới xuất hiện Lịch sử của hệ thống thông tin di động Thông tin di động GSM Đường nét liền: Các giao diện chính; Đường nét đứt: Các giao diện bổ sung Hình 1.2. Lịch sử của hệ thố",
         "chars": 500
       },
       {
-        "id": "476713e3-902d-4c29-b945-ce3f61e661c3",
+        "id": "2b1d8b0d-87fe-4138-b9da-36a35c0aab78",
         "text": "ng thông tin di động Hệ thống viễn thông di động toàn cầu UMTS Đường nét liền: Các giao diện chính; Đường nét đứt: Các giao diện bổ sung Hình 1.2. Lịch sử của hệ thống thông tin di động Sự phát triển dài hạn LTE Đường nét liền: Các giao diện chính; Đường nét đứt: Các giao diện bổ sung Hình 1.2. Lịch sử của hệ thống thông tin di động LTE-Advanced Cải tiến quan trọng nhất trong LTE-Advanced: Lịch sử của hệ thống thông tin di động LTE-Advanced Pro LTE ban đầu được thiết kế để con người sử dụng, như",
         "chars": 500
       },
       {
-        "id": "f8001170-b65d-4954-9de7-8e1548b55551",
+        "id": "886ca060-da16-4f92-8bf8-58580e502da6",
         "text": "ng cũng cần có truyền thông kiểu máy diện rộng (MTC) cho các thiết bị như bộ theo dõi phương tiện giao thông và đồng hồ đo tiện ích thông minh. Truyền thông kiểu máy nâng cao (eMTC) tương thích ngược với LTE, theo nghĩa trạm eMTC cơ sở có thể truyền thông với cả điện thoại di động cũ và thiết bị kiểu máy cùng một lúc. băng thông rộng di động nâng cao (eMBB), truyền thông độ trễ thấp siêu đáng tin cậy (URLLC) truyền thông loại máy quy mô lớn (mMTC). Kiến trúc của hệ thống thông tin di động Kiến t",
         "chars": 500
       },
       {
-        "id": "0769398c-bc06-4c25-98a6-fa4194f5441e",
+        "id": "09ce9007-75bd-4763-b32c-a6f39adcd009",
         "text": "rúc Hình 1.3. Kiến trúc của hệ thống thông tin di động. Các kỹ thuật cơ bản trong thông tin di động Đa truy nhập 1. Các kỹ thuật cơ bản trong thông tin di động Nguyên lý tế bào Hình 1.7.",
         "chars": 186
       },
       {
-        "id": "b5df36d9-6225-4638-9692-b58b568c0a48",
+        "id": "bc1ea83f-4fac-44e6-9975-24639dd7ccbf",
         "text": "40 tiết (4 đvht, 3 tín chỉ) + Lý thuyết: 32 tiết + Bài tập: 8 tiết + Thực hành: 4 tiết Mục tiêu học phần: Kiến thức: cung cấp cho sinh viên các kiến thức nền tảng về đặc điểm chung, giao diện vô tuyến và các giao thức trong mạng thông tin di động dựa theo lộ trình phát triển từ 2G đến 5G. Về thái độ, chuyên cần: Tham gia đầy đủ các giờ lý thuyết, bài tập, thảo luận nhóm, thực hành. Hoàn thanh đầy đủ các bài tập được giao. Võ Nguyễn Quốc Bảo Thông tin di động, Bài giảng, Học viện công nghệ BCVT,",
         "chars": 500
       },
       {
-        "id": "c166e820-7a33-41d2-9845-fb4ab0f5a155",
+        "id": "f4f5e87c-eed5-45b1-bee1-857d64d364b9",
         "text": "062022 Đánh giá Tham gia học tập trên lớp : 10 Thực hànhThí nghiệm : 10 Bài tậpThảo luận : 10 Kiểm tra giữa kỳ : 10 Kiểm tra cuối kỳ : 60 Chương 2: Trình bày về kiến trúc mạng, kiến trúc giao thức, các kênh vật lý và các kênh logic trong hệ thống thông tin di động 2G GSM và GPRS. Ngoài ra, vấn đề điều khiển tài nguyên vô tuyến trong hệ hệ thống GSM cũng được trình bày trong chương này. Chương 3: Trình bày các nội dung liên quan đến hệ thống thông tin di động 3G UMTS bao gồm: kiến trúc mạng, kiến",
         "chars": 500
       },
       {
-        "id": "62e54cbe-5fd6-468c-a017-8c75ac70e7cc",
+        "id": "8856d943-a0a8-40f0-9bb8-01a3f8be2e7c",
         "text": "trúc giao diện vô tuyến, các kênh của WCDMA, điều khiển tài nguyên vô tuyến và quản lý di động, Chương 4: Trình bày về giao diện vô tuyến của thệ thống hệ thống thông tin di động 3G+ HSPA như các giao thức truy nhập gói tốc độ cao đường lênđường xuống, cấu trúc lớp MAC và quản lý di động trong HSDPA. Chương 5: Trình bày về kiến trúc chung của mạng, kiến trúc mạng truy nhập và kiến trúc giao thức trong hệ thống thông tin di động 4G LTE. Ngoài ra, chương này cũng đề cập tới chất lượng dịch vụ và",
         "chars": 500
       },
       {
-        "id": "d74efdd4-266c-4842-91bc-fecda2a74b11",
+        "id": "f9337436-eaca-4130-a2e7-750dee8e790f",
         "text": "các kênh mang, các trạng thái di động và kết nối của UE, quản lý di động Chương 6: Trình bày về giao diện vô tuyến 4G LTE trong đó tập trung vào các giao thức, trạng thái LTE UE, quản lý di động LTE UE, cấu trúc tài nguyên vô tuyến, các tín hiệu tham chuẩn, truyền dẫn đường xuốngđường lên, các thủ tục lớp vật lý Chương 7: Trình bày về hệ thống thông tin di động 5G bao gồm các nội dung chính như các trường hợp sử dụng, các yêu cầu về hiệu năng, các công nghệ cho 5G. Kiến trúc chung, kiến trúc mạn",
         "chars": 500
       },
       {
-        "id": "a73e66e5-107f-45b1-a9c7-99fe11d7d3a9",
+        "id": "74a801af-d595-480d-ba30-6eba83960fa6",
         "text": "g truy nhập vô tuyến và kiến trúc mạng lõi 5G cũng được trình bày trong chương này. Chương 8: Trình bày về giao diện vô tuyến 5G tập trung trình bày các nội dung liên quan đến sóng mang và kênh vô tuyến mới (NR), truyền dẫn song công và phổ 5G, chia sẻ phổ 4G5G và các công nghệ lớp vật lý mới của 5G-NR. GSM: được thiết kế chỉ dành cho thoại (tín hiệu tiếng nói), nhưng sau đó đã được cải tiến để hỗ trợ nhắn tin tức thì bằng Dịch vụ bản tin ngắn (SMS), và gửi dữ liệu gói đến thiết bị di động bằng",
         "chars": 500
       },
       {
-        "id": "b69a5e57-c771-4f53-8f3e-31a06309489d",
+        "id": "3ea6d651-83b7-4452-990b-8de8f5f6599e",
         "text": "Dịch vụ Vô tuyến Gói chung (GPRS). Mạng lõi có hai miền truyền thống: miền chuyển mạch kênh xử lý các cuộc gọi thoại, trong khi miền chuyển mạch gói xử lý dữ liệu. UMTS sử dụng cùng một mạng lõi như GSM, nhưng có một mạng truy nhập vô tuyến (RAN) mới được gọi là mạng truy cập vô tuyến mặt đất UMTS (UTRAN) và một trạm gốc mới được gọi là Node B. Trong LTE, trạm gốc được gọi là Node B phát triển (eNB), RAN là mạng truy nhập vô tuyến mặt đất UMTS phát triển (E-UTRAN) và lõi gói phát triển (EPC) tha",
         "chars": 500
       },
       {
-        "id": "095ad69c-f735-4b29-a5cc-2d8bb14e2847",
+        "id": "50395521-180d-4de1-b10c-b196f4537768",
         "text": "y thế trực tiếp cho miền chuyển mạch gói của UMTS và GSM. tập hợp sóng mang (CA): Kỹ thuật này làm tăng tốc độ dữ liệu của thiết bị di động bằng cách cho phép nó truyền thông qua nhiều ô, được phép phát và thu trên các tần số vô tuyến khác nhau, nhưng vẫn được điều khiển bởi một eNB duy nhất. kết nối kép (DC): cho phép các ô đó được điều khiển bởi hai trạm gốc riêng biệt thay vì một trạm. Hai trạm gốc này là eNB chính (MeNB) và eNB thứ cấp (SeNB). Internet vạn vật băng hẹp (NB-IoT) có đặc tính h",
         "chars": 500
       },
       {
-        "id": "b04b0adb-3bb5-4d03-98a2-65e2bfaa5a2a",
+        "id": "005398b1-f46d-4223-9d2c-31c099628b4c",
         "text": "iệu năng tốt hơn, nhưng được định nghĩa là một công nghệ giao diện vô tuyến riêng biệt không tương thích ngược với LTE: một trạm gốc NB-IoT không thể truyền thông với các thiết bị di động cũ và ngược lại. Lịch sử của hệ thống thông tin di động Hệ thống thông tin di động 5G 5G là một hệ sinh thái được kết nối nhanh chóng, an toàn và đáng tin cậy bao gồm con người và máy móc, cho phép di động liền mạch, kết nối hiệu quả, tăng mật độ kết nối, tăng năng suất công nghiệp, tự động hóa và tính bền vững",
         "chars": 500
       },
       {
-        "id": "b3433855-2bb2-40af-a33a-1070484ba433",
+        "id": "f0613b7f-367f-401e-91a8-b9d6f1eaacba",
         "text": ". Các cơ chế đa truy nhập. Kỹ thuật đa truy nhập nhằm mục đích tối đa hóa số lượng người dùng có thể sử dụng đồng thời một kênh phổ hữu hạn nhất định. Các kỹ thuật cơ bản trong thông tin di động Song công FDD (Frequency Division Duplex) Kênh phát và thu được thực hiện ở hai tần số khách nhau Mỗi kênh vô tuyến gồm một cặp tần số có khoảng cách đủ lớn để không gây ảnh hưởng giữa thu và phát TDD (Time Division Duplex) Kênh phát và thu làm việc ở cùng tần số nhưng phân chia theo thời gian Mỗi kênh v",
         "chars": 500
       },
       {
-        "id": "25c29c2b-353a-4827-83e8-7f95b755ef01",
+        "id": "1d7ac096-7a95-4814-9f83-d37a69a28b8e",
         "text": "ô tuyến chỉ sử dụng một tần số (hiệu quả sử dụng tần số cao) Mô hình mạng di động tái sử dụng tần số. Vùng phủ sóng được chia nhỏ thành các ô (vùng vô tuyến) Tái sử dụng tần số Chuyển giao",
         "chars": 188
       },
       {
-        "id": "ef2ed879-8624-4aa1-aa75-5336b314c1c9",
+        "id": "35d342ac-0ad4-4524-9797-74d7d313ce7e",
         "text": "1.1. 1.1. 1.1. 1.1. 1.1. 1.1. 1.1. 1.3. 1.4. 1.4. 1.4.",
         "chars": 54
       },
       {
-        "id": "c755f3a5-0268-4e5c-acbf-939af13c6071",
+        "id": "80d57461-2da1-4029-8abd-570d9ef7b374",
         "text": "ITU-R M.1034-1 (1997) Requirements for the radio interface(s) for International Mobile Telecommunications 2000 (IMT-2000). ITU-R M.2134 (2008) Requirements related to technical performance for IMT-Advanced radio interface(s). Report ITU-R M. IMT-2020.TECH PERF REQ, Minimum Requirements Related to Technical Performance for IMT-2020 Radio Interface(s), March 2017.",
         "chars": 364
       },
       {
-        "id": "63512343-d727-4c41-9791-8de59df763f9",
+        "id": "719dc57f-5411-48b6-b683-fe6d8c916608",
         "text": "2. 3. 4. 5. 6.",
         "chars": 14
+      }
+    ]
+  },
+  {
+    "book": "Báo_Cáo_Chi_Tiết_Về_Retrievalaugmented_Generation_rag_Mimi",
+    "mode": "semantic",
+    "settings": {
+      "max_chars": 500,
+      "n_clusters": 8
+    },
+    "chunks": [
+      {
+        "id": "c7a6bb7c-3c0c-4fc8-8cbb-d55d76510a1e",
+        "text": "Báo cáo chi tiết về RetrievalAugmented Generation (RAG) Tác giả: Mimi (trợ lý của bạn) Người nhận: HG Ngày: 15 August 2025 1. Tóm tắt điều hành RetrievalAugmented Generation (RAG) là một khuôn khổ kết hợp tìm kiếm thông tin (retrieval) với mô hình sinh ngôn ngữ (generation) nhằm giảm hiện tượng hallucination của LLM và cho phép trả lời dựa trên kho tư liệu cụ thể (ví dụ: tài liệu nội bộ, sách hướng dẫn, bài báo khoa học). RAG thường gồm hai lớp chính: Retriever (tìm tài liệu liên quan) và Genera",
+        "chars": 500
+      },
+      {
+        "id": "62630e69-f8c9-4cee-875d-48ec8c9b6a9f",
+        "text": "torReader (tạo câu trả lời dựa trên tài liệu được trả về). Báo cáo này trình bày chi tiết lý thuyết, kiến trúc, các thành phần kỹ thuật, ví dụ triển khai (mã minh họa), chiến lược thực tế, đánh giá hiệu năng và checklist triển khai. Mục tiêu báo cáo 1. Giải thích nguyên lý hoạt động của RAG. Đưa ví dụ mã (endtoend) để minh họa pipeline RAG. Tổng quan khái niệm Ý tưởng chính: Khi LLM cần trả lời câu hỏi liên quan đến tri thức cụ thể, thay vì chỉ dựa trên trọng số đã học, hệ thống RAG truy vấn một",
+        "chars": 500
+      },
+      {
+        "id": "5cf2d608-0c9e-48ed-967e-13f383c22c7d",
+        "text": "kho tài liệu để lấy các đoạn (passages) liên quan, sau đó kết hợp những đoạn này vào prompt để LLM tạo câu trả lời. Lợi ích: Giảm hallucination (cung cấp nguồn thông tin tham chiếu). Hữu dụng cho QA trên tài liệu nội bộ, chatbots hỗ trợ khách hàng, trợ lý kỹ thuật. Hai kiểu RAG phổ biến: RAGretrievethengenerate (pipeline): Retriever tách rời, đưa kết quả vào prompt cho generator. RAGend2end (joint): Một số nghiên cứu kết hợp retrieval và generation dưới dạng thành phần huấn luyện chung (phức tạ",
+        "chars": 500
+      },
+      {
+        "id": "23040133-25d6-4137-bec7-96d5f64b0174",
+        "text": "p hơn). Kiến trúc và thành phần chính 1. Làm sạch: loại bỏ metadata không cần thiết, chuẩn hóa encoding. Chia tài liệu lớn thành đoạn nhỏ (chunks) có kích thước hợp lý để embedding và để nhồi vào prompt. Các lựa chọn phổ biến: FAISS, Milvus, Weaviate, Pinecone, Annoy. Nạp các đoạn topk vào prompt template (hoặc dùng chain-of-thought, summary chain). Trích xuất citation (nguồn), định dạng câu trả lời, kiểm tra vi phạm chính sách. Logging truy vấn, tài liệu trả về, câu trả lời, đánh giá người dùng",
+        "chars": 500
+      },
+      {
+        "id": "2c87b99d-8624-4bdd-9aab-6817fb6fc965",
+        "text": "để tinh chỉnh retriever index. Chi tiết kỹ thuật từng thành phần 5.1 Chunking kỹ thuật heuristics Mục tiêu: tạo các đơn vị thông tin đủ nhỏ để embed và đủ lớn để giữ nghĩa. Chiến lược: Lưu ý: Giữ metadata (source, page, paragraph id) để khi trả lời có thể trích dẫn nguồn chính xác. Kỹ thuật: Trích ngắn (extractive): đưa đoạn thô vào prompt. Rủi ro, hạn chế và biện pháp giảm thiểu 1. Hallucination: luôn kèm nguồn (cite) trong câu trả lời; nếu model không tìm được tài liệu phù hợp, trả lời rằng k",
+        "chars": 500
+      },
+      {
+        "id": "18613264-3d75-46f0-8a12-9bf6309bb8cd",
+        "text": "hông tìm thấy. Bias quality của nguồn: tài liệu kém chất lượng dẫn đến trả lời kém. Ví dụ minh họa Mô tả pipeline mã mẫu (Python + LangChain style) Mô tả: ví dụ đơn giản: xây RAG QA trên một bộ tài liệu text (folder docs ). Yêu cầu cài đặt (ví dụ): k5 : lấy 5 đoạn liên quan nhất. Case study ngắn Triển khai RAG cho tâm thư nội bộ (ví dụ thực tế) Mục tiêu: cho phép nhân viên hỏi bằng tiếng Việt về chính sách công ty, benefits, quy trình. Quy trình: Prompt template kèm citation: mỗi đoạn trả lời kè",
+        "chars": 500
+      },
+      {
+        "id": "15dd168e-912e-4364-8700-89a9287e0466",
+        "text": "m Nguồn: handbook.pdf, trang 12 . Logging feedback button: người dùng đánh dấu câu trả lời chính xáckhông dùng để cải thiện retriever. Kết quả mong đợi: câu trả lời chính xác cao hơn LLM đơn thuần, rút ngắn thời gian tìm kiếm tài liệu nội bộ. Hạn chế tương lai RAG cải thi 6",
+        "chars": 274
+      },
+      {
+        "id": "d5df9966-ca78-4ed0-a0b6-8d42450e110a",
+        "text": "Nêu các best practices, rủi ro, và lộ trình triển khai. Ingestion Preprocessing 2. Cần cân nhắc latencychi phí. Reader Generator 21. Postprocessing 24. Monitoring Feedback 26. 5.6 Prompt design context window Pattern: Instruction + Retrieved chunks + Question . Tóm tắt trước (summarize retrieved docs short summary prompt): giảm token usage. Chain of Thought stepbystep nếu cần reasoning (cẩn thận với hallucination). Metrics endtoend: exact match (nếu có label), F1, human eval (fluency, correctnes",
+        "chars": 500
+      },
+      {
+        "id": "86b32bb9-e7cc-4a41-953a-db3c4133b546",
+        "text": "s, citation accuracy), user satisfaction. AB testing: so sánh RAG vs baseline (LLM alone). Dữ liệu: handbook PDF (30 trang), email policy, FAQs. Best practices checklist triển khai - 11.",
+        "chars": 186
+      },
+      {
+        "id": "068cb895-3082-4feb-b7e6-72c88fc916ac",
+        "text": "Dễ cập nhật kiến thức (chỉ cần cập nhật index, không cần finetune LLM). Chunking (tách đoạn) 5. Thường dùng chunksize (5001500 tokens) với overlap (50200 tokens) để giữ ngữ cảnh. Hỗ trợ ANN (Approximate Nearest Neighbor) như HNSW, IVF, PQ để tìm nhanh. Hybrid: kết hợp sparse + dense để tận dụng thế mạnh của cả hai. Reranker (tùy chọn) 2 Sau bước initial retrieval, dùng mô hình mạnh hơn (crossencoder) để rerank thứ tự các đoạn. Điểm lưu ý: giới hạn token của LLM phải chọnconcatenate các đoạn sao",
+        "chars": 500
+      },
+      {
+        "id": "fc38c9ef-6e3a-404e-bbc3-3ea4291d3288",
+        "text": "cho vừa token budget. Thông số thông dụng: chunksizetokens 5001,200; overlaptokens 50300. Section splitting theo tiêu đề tốt cho tài liệu có cấu trúc (manuals). Khoảng cách phổ biến: cosine similarity, dot product, L2. Chuẩn hóa: khi dùng cosine, thường normalized vectors. 5.3 Vector DB ANN FAISS: mạnh, local, nhiều thuật toán ANN (IVF, HNSW, PQ). Thiết kế index: quyết định nlist (IVF), M (HNSW), dimension compression (PQ) tradeoff giữa tốc độ recall. Hybrid: nhiều hệ sản xuất dùng hybrid để tối",
+        "chars": 500
+      },
+      {
+        "id": "8774b1de-afd9-4c47-a80e-de32ede42f6e",
+        "text": "đa recall. 5.5 Reranking rescoring Sau retrieval, pass candidate pairs (query, candidate) cho crossencoder (ví dụ BERTlike) để tính score chính xác hơn. Chi phí cao thường giới hạn rerank trên top50 hoặc top100. Token budgeting: xác định giới hạn model; reserve một phần cho generation; chọn số chunk sao cho tổng token context window. 5.7 Caching freshness Cache kết quả embedding cho chunks (tái sử dụng). Cache retriever results cho các truy vấn phổ biến. Để cập nhật dữ liệu (freshness): chỉ reb",
+        "chars": 500
+      },
+      {
+        "id": "e0390d2e-990f-4f05-89d2-1d957b419bc5",
+        "text": "uild index cho phần thay đổi, hoặc incremental indexing nếu vector DB hỗ trợ. Đo lường và đánh giá Metrics retrieval: recallk, precisionk, MRR (mean reciprocal rank), nDCG. chunksize800 chunkoverlap150 là ví dụ; tinh chỉnh tùy tài liệu. chaintypestuff nhét toàn bộ raw chunks vào prompt; có thể thay bằng mapreduce hoặc refine để giảm token usage. Rerank top50 bằng crossencoder. Giám sát cải tiến liên tục Thu thập feedback người dùng (thumbs updown, correction). Tái training finetune dense retriev",
+        "chars": 500
+      },
+      {
+        "id": "7b8ac5e8-61b5-4a73-9c1a-83cb6e679197",
+        "text": "er trên cặp (query, relevant doc) thu thập được. Periodic reindexing cho dữ liệu thay đổi.",
+        "chars": 90
+      },
+      {
+        "id": "f6d54d8a-0a20-4ef9-b8f8-3154348d84ff",
+        "text": "Embedding 9. Mỗi chunk được chuyển thành vector embedding bằng mô hình embedding (sentencelevel). Embedding mapping: văn bản vector không gian thực. Semantic split: dùng embeddings để detect boundary (nâng cao). 5.2 Embeddings khoảng cách Mục tiêu: ánh xạ đoạn văn thành không gian vector sao cho đoạn giống nhau gần nhau. ANN algorithms: HNSW (good latency recall), IVF+PQ (memory efficient for huge corpora). Dense (embedding): tốt semantic match, bắt được paraphrase. Chi phí latency: embedding +",
+        "chars": 500
+      },
+      {
+        "id": "c8c962fb-c250-4e6f-91f9-201a7cb82cab",
+        "text": "ANN + LLM calls tốn tài nguyên; sử dụng caching, batch processing, reranker giới hạn. Sử dụng text splitter, sentence embeddings, FAISS vectorstore, và OpenAILLM làm generator. Latency: cache embedding kết quả, cache retriever outputs của truy vấn thường gặp. Throughput: batch embedding jobs, precompute embeddings cho tài liệu tĩnh.",
+        "chars": 334
+      },
+      {
+        "id": "dfa6dbef-bb45-44c1-97eb-c668c6a4b962",
+        "text": "Mô tả các thành phần kỹ thuật (chunking, embedding, vector DB, retriever, reranker, prompt engineering). Thu thập dữ liệu nguồn: PDF, DOCX, HTML, cơ sở dữ liệu, logs. Chiến lược chunking: theo câuđoạn, theo mục lục, hoặc semantic chunking (dựa trên ý nghĩa). Index Vector Store 12. Lưu trữ embedding kèm metadata (source, offset, page). Retriever 15. Tìm k chunk tương đồng với truy vấn (query embedding hoặc sparse search như BM25). Kiểu retriever: Sparse retriever: dựa trên bagofwordsBM25 (Elastic",
+        "chars": 500
+      },
+      {
+        "id": "255217cd-f35f-476c-9428-684a9179366f",
+        "text": "search, Lucene). Dense retriever: dựa trên embedding (vector similarity). TextSplitter theo câu tốt cho văn bản narrative. Milvus Weaviate Pinecone: managedscaleable, có tính năng metadata filter. 5.4 Retriever types: dense sparse hybrid Sparse (BM25 lexical): xử lý tốt exact match, rẻ, interpretability. Thông tin nhạy cảm PII: trước indexing cần redaction hoặc encryption; quản lý access control trên vector DB. pip install langchain openai sentence-transformers faiss-cpu from langchain.documentl",
+        "chars": 500
+      },
+      {
+        "id": "fd4313df-381f-4a8b-83d3-8619fc7d3dfd",
+        "text": "oaders import TextLoader from langchain.textsplitter import RecursiveCharacterTextSplitter from langchain.embeddings import SentenceTransformerEmbeddings from langchain.vectorstores import FAISS from langchain.llms import OpenAI from langchain.chains import RetrievalQA 1) Load documents loader TextLoader(docsmanual.txt) docs loader.load() 2) Chunk splitter RecursiveCharacterTextSplitter(chunksize800, chunkoverlap150) chunks splitter.splitdocuments(docs) 3) Embedding emb SentenceTransformerEmbedd",
+        "chars": 500
+      },
+      {
+        "id": "0d007b22-cceb-45fc-be18-e40ef6781123",
+        "text": "ings(modelnameall-MiniLM-L6-v2) index FAISS.fromdocuments(chunks, emb) 4) Retriever retriever index.asretriever(searchtypesimilarity, searchkwargsk: 5) 5) LLM llm OpenAI(temperature0) qa RetrievalQA.fromchaintype(llmllm, chaintypestuff, retrieverretriever) 6) Run query Làm thế nào để reset mật khẩu trên hệ thống X answer qa.run(query) print(answer) Giải thích nhanh: Extract text từ PDF chunk theo section. Tạo embeddings index (metadata: document, page). Xây retriever hybrid: BM25 (exact match) +",
+        "chars": 500
+      },
+      {
+        "id": "8f41d6ff-6359-4e8f-bac7-96da02bca8fd",
+        "text": "dense (semantic). Triển khai mở rộng scaling Scale vector DB: dùng FAISS + sharding hoặc managed vector DB. Observability: log trace từng truy vấn (query text, retrieved ids, final answer, latencies).",
+        "chars": 201
+      },
+      {
+        "id": "497ecd11-e548-4f31-8b50-be933e473084",
+        "text": "6. 7. 8. 10. 11. 5. 6. 7. 8. 5 9. 10. 12.",
+        "chars": 41
+      },
+      {
+        "id": "70ca095e-88ec-4817-81b6-999808546bb0",
+        "text": "2. 2. 3. 4. 3. 1 4. 3. 4. 3 2. 3. 4 4.",
+        "chars": 38
+      },
+      {
+        "id": "2c9f4d57-1e1c-4dbd-adbd-ab2a110e4e72",
+        "text": "13. 14. 16. 17. 18. 19. 20. 22. 23. 25. 13.",
+        "chars": 43
+      }
+    ]
+  },
+  {
+    "book": "Báo_cáo",
+    "mode": "semantic",
+    "settings": {
+      "max_chars": 500,
+      "n_clusters": 8
+    },
+    "chunks": [
+      {
+        "id": "e4b3acab-1a66-4b76-bbba-10f60dfe0e40",
+        "text": "BÁO CÁO THỰC TẬP TỐT NGHIỆP HÀ NỘI, THÁNG 8.2025 MỞ ĐẦU\t6 GIỚI THIỆU CHUNG VỀ ĐƠN VỊ THỰC TẬP\t7 Thông tin chung về đơn vị thực tập\t7 Lịch sử hình thành và phát triển\t8 BÁO CÁO NỘI DUNG THỰC TẬP\t11 Kế hoạch thực tập theo đề cương\t11 Báo cáo thực hiện chi tiết\t12 KẾT QUẢ ĐẠT ĐƯỢC\t26 Kết quả về lý thuyết\t26 Nâng cao kỹ năng với React.js và TypeScript\t26 Học hỏi và làm việc với Framework mới (Angular)\t26 Kỹ năng thiết kế giao diện (UI) với Tailwind CSS và SCSS\t27 Kết quả về kỹ năng và thái độ\t27 Kỹ",
+        "chars": 500
+      },
+      {
+        "id": "c26effdd-7f3a-4a01-90f2-93a2c742ff5c",
+        "text": "năng thực hành chuyên môn\t27 Rèn luyện kỷ luật và thái độ làm việc\t28 TÀI LIỆU THAM KHẢO\t30 Các đối tác khách hàng\t9 Thanh search input được xây dựng\t15 Bảng 2.1.1 Đề cương thực tập\t11 MỞ ĐẦU GIỚI THIỆU CHUNG VỀ ĐƠN VỊ THỰC TẬP Thông tin chung về đơn vị thực tập Phát triển phần mềm và ứng dụng: Phát triển ứng dụng di động: Phát triển ứng dụng trên các hệ điều hành Android và IOS. Phát triển phần mềm tùy chỉnh (Custom Software Development): Xây dựng các giải pháp phần mềm đặc thù theo yêu cầu của",
+        "chars": 500
+      },
+      {
+        "id": "448756ca-0114-4aaf-90d2-9b50988c7268",
+        "text": "từng doanh nghiệp. Các lĩnh vực công nghệ khác: Testing and Automation: Kiểm thử phần mềm và tự động hóa quy trình. Kiểm thử & Tự động hóa: Appium, Katalon, UIPath. Lịch sử hình thành và phát triển Phát triển chuyên môn sâu: Xây dựng các đội ngũ chuyên môn hóa cao trong từng lĩnh vực (ví dụ: đội Frontend chuyên sâu React/Vue, đội Backend chuyên sâu Node.js/Java). Các đối tác khách hàng BÁO CÁO NỘI DUNG THỰC TẬP Kế hoạch thực tập theo đề cương Bảng 2.1.1 Đề cương thực tập Báo cáo thực hiện chi t",
+        "chars": 500
+      },
+      {
+        "id": "54d3e3bb-89b8-43e3-8c81-a29ad2f2f5ac",
+        "text": "iết 2.2.1 Nguyễn Minh Đạt Tuần 1: Từ ngày 30/6 đến 6/7 b. Các thành phần và hiệu ứng giao diện Component hiển thị thông tin bài hát: Mỗi bài hát được đại diện bằng một component riêng, hiển thị đầy đủ thông tin cần thiết như tên bài hát, tên ca sĩ/nhạc sĩ và ảnh mô tả. c. Công nghệ sử dụng ReactJS và TypeScript: Sử dụng ReactJS để xây dựng giao diện người dùng theo hướng component, giúp việc quản lý và phát triển trở nên linh hoạt. Việc kết hợp với TypeScript giúp em viết code với kiểu dữ liệu r",
+        "chars": 500
+      },
+      {
+        "id": "bd53a65c-f1d5-42c4-ab56-cf89efd210d0",
+        "text": "õ ràng, giảm thiểu lỗi trong quá trình phát triển và nâng cao tính bảo trì của dự án. SCSS: Để quản lý và tùy chỉnh các kiểu dáng (styling), em đã sử dụng SCSS. SCSS cung cấp các tính năng mạnh mẽ hơn CSS thông thường như biến (variables), lồng (nesting), và mixin, giúp việc viết và tổ chức code CSS trở nên gọn gàng và dễ bảo trì. Ant Design: Tận dụng thư viện Ant Design để sử dụng các component UI chuyên nghiệp, có sẵn như các nút bấm (buttons), biểu mẫu (forms), và các layout cơ bản. React Ico",
+        "chars": 500
+      },
+      {
+        "id": "3dcd6de0-045b-4e08-aa93-9c17d4f5b58d",
+        "text": "ns: Để thêm các biểu tượng (icon) vào ứng dụng, em đã sử dụng React Icons. Kết quả đạt được Tuần 2: Từ 7/7 đến 13/7 Xử lý và hiển thị dữ liệu: Thu thập, xử lý và cập nhật trạng thái ứng dụng để hiển thị kết quả tìm kiếm một cách mượt mà, tức thì. Để hoàn thành nhiệm vụ này, em đã phát triển các thành phần cốt lõi sau: Quản lý trạng thái: Sử dụng React State (như useState hoặc useReducer) để lưu trữ từ khóa tìm kiếm, trạng thái loading và danh sách kết quả bài hát. Khi nhận được dữ liệu từ API, t",
+        "chars": 500
+      },
+      {
+        "id": "1eac1680-1eea-460b-ac3d-d26c732a59f5",
+        "text": "rạng thái sẽ được cập nhật để hiển thị danh sách bài hát trên giao diện. Công nghệ sử dụng React: Thư viện JavaScript hàng đầu để xây dựng giao diện người dùng. TypeScript: Ngôn ngữ lập trình được sử dụng để tăng cường tính an toàn của mã nguồn và dễ dàng bảo trì. Kết quả đạt được Thanh search input được xây dựng Tuần 3: Từ 14/7 đến 20/7 Phát triển Modal Nâng cấp và Tích hợp Logic Đăng nhập Tích hợp logic điều hướng: Xây dựng logic để xử lý hành vi của người dùng khi họ tương tác với modal, bao",
+        "chars": 500
+      },
+      {
+        "id": "1c9e366b-1c47-4ad4-a590-d7a095e9d339",
+        "text": "gồm việc chuyển hướng đến trang nâng cấp hoặc trang đăng nhập. Tích hợp logic đăng nhập: Xử lý việc mở modal đăng nhập nếu người dùng chưa xác thực, và sau khi đăng nhập thành công, điều hướng họ đến đúng trang đích. Các thành phần và logic cốt lõi cần phát triển gồm: Sử dụng React Router để quản lý các tuyến đường (routes) của ứng dụng, cho phép chuyển hướng người dùng giữa các trang Home, Upgrade và Login. Hàm xử lý sự kiện onClick trên nút \"Nâng cấp\" sẽ kiểm tra trạng thái đăng nhập của người",
+        "chars": 500
+      },
+      {
+        "id": "f48a39f7-29b4-4b21-af9a-230d5f1fc780",
+        "text": "dùng. Quản lý trạng thái và xác thực: Sử dụng Redux để lưu trữ và truy cập thông tin người dùng như trạng thái đăng nhập accessToken và loại tài khoản accountType. Khi người dùng nhấn nút \"Nâng cấp\", logic sẽ kiểm tra nếu accessToken là false, modal đăng nhập sẽ được hiển thị. Ngược lại thì logic sẽ kiểm tra accountType có phải free, người dùng sẽ được chuyển hướng đến trang /upgrade. Ngược lại nếu accountType không phải free (ví dụ: premium), người dùng sẽ được giữ lại trên trang chủ (/home).",
+        "chars": 500
+      },
+      {
+        "id": "2d8fb493-6576-4e18-ab0c-bc5bf222ea93",
+        "text": "Công nghệ sử dụng React: Thư viện JavaScript chính để xây dựng các thành phần giao diện. Redux: Thư viện JavaScript mã nguồn mở, được sử dụng để quản lý các trạng thái (state) của ứng dụng web. Redux giúp việc quản lý trạng thái trở nên dễ dàng và có tổ chức hơn, đặc biệt trong các ứng dụng phức tạp có nhiều logic và state liên quan và ảnh hưởng lẫn nhau TypeScript: Ngôn ngữ lập trình được sử dụng để đảm bảo tính an toàn và dễ bảo trì của mã nguồn. Quản lý trạng thái và điều hướng: Redux: Quản l",
+        "chars": 500
+      },
+      {
+        "id": "f218f413-f5bc-4b37-bf54-231acc6edd1c",
+        "text": "ý trạng thái chung của người dùng. Đây là thư viện JavaScript mã nguồn mở, được sử dụng để quản lý các trạng thái (state) của ứng dụng web. Redux giúp việc quản lý trạng thái trở nên dễ dàng và có tổ chức hơn, đặc biệt trong các ứng dụng phức tạp có nhiều logic và state liên quan và ảnh hưởng lẫn nhau React Router: Để quản lý việc chuyển đổi giữa các trang. Modal Library: (ví dụ: react-modal hoặc một thành phần modal tự xây dựng) để hiển thị hộp thoại pop-up. Kết quả đạt được Chức năng Modal Nân",
+        "chars": 500
+      },
+      {
+        "id": "84590f27-d0f2-42ae-94ef-7e79508f4182",
+        "text": "g cấp đã được triển khai thành công, hoạt động đúng theo logic yêu cầu. Tuần 4: Từ 21/7 đến 27/7 Xây dựng Trang Giới thiệu Giải pháp Tina SSO Nhiệm vụ trọng tâm của em là xây dựng trang giới thiệu về giải pháp Tina SSO (Single Sign-On). Em đã xác định các thành phần cốt lõi sau: Phần \"SSO là gì?\" (What is SSO): Tạo một khu vực giải thích khái niệm Single Sign-On. Phần \"Các câu hỏi về SSO\" (SSO Questions): Gồm các thẻ thả xuống giúp hiển thị các câu hỏi nhiều nhất của khách hàng về SSO và các câu",
+        "chars": 500
+      },
+      {
+        "id": "dd9844e0-f8f9-4f43-a4f7-e143d9849cf3",
+        "text": "trả lời tương ứng. Kết quả đạt được Tuần 5: Từ 28/7 đến 3/8 Để hoàn thành nhiệm vụ này, tôi đã thực hiện các công việc sau: Cập nhật Giao diện: Sử dụng Tailwind CSS để điều chỉnh các lớp (class) về layout, spacing, typography và màu sắc, đảm bảo các thành phần như header, footer và các section chính khớp với bản thiết kế. Khắc phục các lỗi liên quan đến flexbox và grid để các phần tử không bị chồng chéo hoặc bị vỡ layout khi thay đổi kích thước màn hình. Sửa lỗi Responsive: Áp dụng các tiền tố",
+        "chars": 500
+      },
+      {
+        "id": "86b2fdcd-e671-478e-9aff-a0514f9f974f",
+        "text": "responsive của Tailwind CSS như sm:, md:, lg: để tùy chỉnh style cho từng breakpoint. Tách các nội dung cần dịch ra thành các file JSON riêng biệt cho mỗi ngôn ngữ (ví dụ: vi.json, en.json). Kết quả đạt được Tuần 6 và 7: Từ 3/8 đến 17/8 Nghiên cứu và Phân tích Nền tảng Angular Mã nguồn của dự án được xây dựng trên Angular - một framework mới hoàn toàn với nhóm. Nghiên cứu Framework Angular: Nắm vững cấu trúc, kiến trúc và các nguyên tắc cốt lõi của Angular, đặc biệt là các khái niệm như Componen",
+        "chars": 500
+      },
+      {
+        "id": "e61b5c5e-67dc-4085-a2a0-ed2f772eb5d6",
+        "text": "t, Module, Service, Dependency Injection và Routing. Công việc đã thực hiện Nghiên cứu Tổng quan về Angular: Giới thiệu: Angular là một framework phát triển ứng dụng web dựa trên TypeScript, được xây dựng và duy trì bởi Google. Components: Các khối xây dựng cơ bản của giao diện người dùng. Modules: Tổ chức code thành các khối chức năng. Services: Cung cấp logic và dữ liệu có thể tái sử dụng. Dependency Injection: Cơ chế giúp các thành phần dễ dàng sử dụng các dịch vụ. Routing: Quản lý điều hướng",
+        "chars": 500
+      },
+      {
+        "id": "9d2c0742-057d-4174-b6a0-2a7885d3aac5",
+        "text": "giữa các trang. Phân tích cấu trúc: Nhóm em đã phân tích cấu trúc thư mục của dự án, xác định các module chính, các components và services. Kết quả đạt được Sau hai tuần nghiên cứu chuyên sâu, em đã nắm vững kiến thức cơ bản về framework Angular. 2.2.2 Nguyễn Thanh Tùng Tuần 1: Từ ngày 30/6 đến ngày 6/7 b. Các thành phần và hiệu ứng giao diện Component hiển thị thông tin bài hát: Mỗi bài được thể hiện bằng một component riêng, hiển thị đầy đủ thông tin bài hát được cung cấp. c. Công nghệ sử dụn",
+        "chars": 500
+      },
+      {
+        "id": "4f770301-55af-481a-85b5-7b6efd86d5f5",
+        "text": "g: - ReactJs và SCSS: Em sử dụng ReactJS để xây dựng giao diện người dùng theo hướng component, giúp dễ chỉnh sửa và quản lý trang web, sử dụng ReactJS giúp cho em có thể tiếp cận với việc viết HTML trong js (jsx), làm cho code ngắn gọn và có thể tận dụng được thế mạnh của js là nhiều thư viện hỗ trợ trong giao diện. - React Icon: Giúp em có được những Icon sử dụng trong trang web - React-multi-carousel: Để có thể có được danh sách trượt, em sử dụng thư viện tải về carousel, giúp em quản lý được",
+        "chars": 500
+      },
+      {
+        "id": "6942564f-af7d-42eb-8df6-d671877f0008",
+        "text": "danh sách nhạc trên cùng một dòng. Để hoàn thành việc này, em đã sử dụng những thành phần : Quản lý trạng thái: Sử dụng React State để lưu trữ từ khóa tìm kiếm,trạng thái loading và kết quả bài hát. c. Công nghệ sử dụng: Tuần 4 và 5: Phát triển khả năng phát nhạc, lưu nhạc và tối ưu thanh nhạc Tạo một thành phần thanh phát nhạc để quản lý nhạc Xử lý và hiển thị nhạc: Thu thập, xử lý và cập nhật trạng thái bài nhạc Để hoàn thành nhiệm vụ này, em phát triển : Thành phần PlayerBar (thanh phát nhạc",
+        "chars": 500
+      },
+      {
+        "id": "9bbfd0f0-5d05-4955-9752-a36e32d3f9f9",
+        "text": ") và Sections (thanh danh sách nhạc): Đây là thành phần giao diện nơi hiển thị danh sách nhạc và quản lý nhạc. Sử dụng Hook để lấy phát nhạc Công nghệ đã sử dụng: ReactJS: Thư viện JavaScript chính để xây dựng thành phần giao diện Carousel : Dùng để tối ưu hình ảnh thanh nhạc - Tối ưu hóa hiệu suất: Do lượng dữ liệu cần sử dụng của trang tăng lên nên sử dụng useMemo để giảm khả năng reload lại hình ảnh của trang, giảm tải cho máy chủ và tăng tốc độ trang. Để hoàn thành việc này, em đã sử dụng cá",
+        "chars": 500
+      },
+      {
+        "id": "a3b1da4c-f0b5-45ff-9e5a-e303e10cec16",
+        "text": "c thành phần: - Quản lý trang: Sử dụng useMemo để giảm tải việc reload trang, giữ cho trang web ổn định nhất, giảm tải việc reload hình ảnh. Công nghệ sử dụng: React: Thư viện JavaScript hàng đầu để xây dựng giao diện người dùng. KẾT QUẢ ĐẠT ĐƯỢC Kết quả về lý thuyết Nâng cao kỹ năng với React.js và TypeScript Quản lý State hiệu quả: Sử dụng các hook như useState, useEffect, và useContext để quản lý trạng thái của ứng dụng một cách tối ưu, đặc biệt là trong các ứng dụng phức tạp như ứng dụng ngh",
+        "chars": 500
+      },
+      {
+        "id": "3c7fd197-0d9f-4457-bcdc-07c287da4949",
+        "text": "e nhạc. Component-based Architecture: Hiểu sâu hơn về cách xây dựng các component có thể tái sử dụng, giúp mã nguồn trở nên gọn gàng, dễ bảo trì và mở rộng. TypeScript: Việc sử dụng TypeScript trong các dự án giúp làm quen với việc định kiểu dữ liệu tĩnh. Áp dụng Design Pattern để tối ưu hóa mã nguồn: Chẳng hạn, chúng em đã sử dụng Component Pattern để chia nhỏ các giao diện người dùng thành các phần nhỏ, độc lập nhằm dễ tái sử dụng và làm sạch code. Ngoài ra, chúng em cũng đã áp dụng mô hình Co",
+        "chars": 500
+      },
+      {
+        "id": "02a020cf-c9b7-4eae-8521-14adb3038903",
+        "text": "ntainer/Presentational (Smart/Dumb Components) để tách biệt logic xử lý dữ liệu và logic hiển thị giao diện. Học hỏi và làm việc với Framework mới (Angular) Tư duy Kiến trúc: Nắm bắt các khái niệm mới Dependency Injection - một mô hình khác biệt so với React. Kỹ năng thiết kế giao diện (UI) với Tailwind CSS và SCSS Tailwind CSS: Thành thạo việc sử dụng Tailwind CSS để xây dựng giao diện nhanh chóng và responsive giao diện chuẩn. Thay vì viết CSS thủ công, chúng em đã áp dụng các utility classes",
+        "chars": 500
+      },
+      {
+        "id": "8143ff38-01a7-4785-883b-fbf0c26efebe",
+        "text": "của Tailwind để tạo ra các layout phức hợp và đảm bảo ứng dụng hiển thị tốt trên mọi thiết bị, từ di động đến máy tính để bàn. SCSS: Trong các dự án có yêu cầu cao về tùy chỉnh giao diện, chúng em đã sử dụng SCSS để tổ chức mã CSS một cách khoa học hơn. Việc sử dụng biến, mixin và nested rules đã giúp việc viết code CSS sạch sẽ và dễ quản lý hơn rất nhiều. Trong dự án ứng dụng nhạc, nhóm em đã học cách xử lý các phản hồi từ API để hiển thị danh sách bài hát, thông tin ca sĩ và lời bài hát. Xử lý",
+        "chars": 500
+      },
+      {
+        "id": "4baf5241-c93c-492f-aeaf-8c506b4b1b7d",
+        "text": "dữ liệu: Cả nhóm đã học cách xử lý dữ liệu trả về từ API, bao gồm cả việc lọc, sắp xếp và định dạng dữ liệu trước khi hiển thị lên giao diện người dùng. Kết quả về kỹ năng và thái độ Kỹ năng thực hành chuyên môn Nhóm đã có cơ hội thực hành và làm việc trực tiếp với các công nghệ Front-end như React.js, TypeScript, Tailwind CSS và SCSS. Kỹ năng làm việc với API (Call API): Rèn luyện được cách tích hợp các API vào ứng dụng, xử lý các trạng thái tải dữ liệu, lỗi và hiển thị thông tin trả về một cá",
+        "chars": 500
+      },
+      {
+        "id": "8256aa22-a270-458c-9ff1-5c44d113a10b",
+        "text": "ch trực quan trên giao diện người dùng. Quy trình nhánh (Branching): Thực hiện đúng chuẩn Git Flow, với các nhánh riêng biệt cho từng tính năng (feature/tên-tính-năng), sửa lỗi (fix/tên-lỗi) hoặc phát hành sản phẩm (release/phiên-bản). Chuẩn Commit Message: Tuân thủ các quy tắc đặt tên commit, ví dụ như Conventional Commits. Mỗi commit đều được đặt tên rõ ràng với tiền tố mô tả mục đích (ví dụ: feat: Thêm chức năng tìm kiếm, fix: Sửa lỗi hiển thị trên di động), giúp dễ dàng theo dõi lịch sử dự á",
+        "chars": 500
+      },
+      {
+        "id": "1f345c95-1685-4b43-aa6d-6edea1de9e56",
+        "text": "n. Rèn luyện kỷ luật và thái độ làm việc TÀI LIỆU THAM KHẢO",
+        "chars": 59
+      },
+      {
+        "id": "684d3700-05c4-4ff6-a7dc-5adfbf9969fa",
+        "text": "LỜI CẢM ƠN LỜI CẢM ƠN\t1 CHƯƠNG 1. CHƯƠNG 2. CHƯƠNG 3. Modal nâng cấp\t18 Trang nâng cấp\t18 CHƯƠNG 1. Big Data Development: Phát triển các giải pháp liên quan đến dữ liệu lớn. Frontend: ReactJS, Vue.js, Angular, Next.js, HTML, CSS, JavaScript. Backend: Node.js, Java, PHP, Python, Django, Ruby, Laravel, C/C++. Cơ sở dữ liệu: MySQL, MongoDB, DynamoDB, Cassandra, Elastic Search, CouchDB, OrientDB, SAP HANA. CHƯƠNG 2. Frontend: Logic: Logic điều hướng (Navigation Logic): Frontend: Modal nâng cấp 4. Tr",
+        "chars": 500
+      },
+      {
+        "id": "d3003bc2-2adb-4f11-9199-184fd6f1d520",
+        "text": "ang nâng cấp FrontEnd: React: Thư viện JavaScript HTML, CSS FrontEnd: FrontEnd: CHƯƠNG 3. React Team. (n.d.). React Documentation. Truy cập ngày 10/07/2025, từ https://react.dev/. Microsoft and the TypeScript Team. (n.d.). TypeScript Handbook. Truy cập ngày 10/07/2025, từ https://www.typescriptlang.org/docs/handbook/. Tailwind Labs. (n.d.). Tailwind CSS Documentation. Truy cập ngày 10/07/2025, từ https://tailwindcss.com/docs/. Google. (n.d.). Angular Documentation. Truy cập ngày 04/08/2025, từ h",
+        "chars": 500
+      },
+      {
+        "id": "7f276713-1119-43d3-a35b-0b07b4ac5179",
+        "text": "ttps://angular.io/docs.",
+        "chars": 23
+      },
+      {
+        "id": "986d5d24-8bf2-4d6d-a338-56fab1831776",
+        "text": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG KHOA ĐIỆN TỬ VIỄN THÔNG Đơn vị thực tập: Công ty Cổ phần Tinasoft Việt Nam Người hướng dẫn tại đơn vị: Đỗ Hoàng Quân Giảng viên hướng dẫn: Lê Thanh Thủy Chúng em xin bày tỏ lòng biết ơn sâu sắc đến Ban Giám đốc và toàn thể nhân viên của Công ty Cổ phần TinaSoft vì đã tạo điều kiện thuận lợi nhất để chúng em hoàn thành kỳ thực tập. Đặc biệt, chúng em xin gửi lời cảm ơn chân thành đến anh Đỗ Hoàng Quân, người đã luôn tận tình chỉ bảo, chia sẻ những kiến thức",
+        "chars": 500
+      },
+      {
+        "id": "01eb083c-e330-4f32-87ee-ef764c584b53",
+        "text": "và kinh nghiệm quý báu. Nhờ sự hỗ trợ và hướng dẫn của anh, chúng em đã có cơ hội áp dụng những kiến thức học được vào thực tiễn và trưởng thành hơn rất nhiều trong công việc. Chúng em cũng xin gửi lời cảm ơn sâu sắc đến cô Lê Thanh Thủy tại Học viện Công nghệ Bưu chính Viễn thông vì sự hỗ trợ và hướng dẫn tận tình trong suốt quá trình làm báo cáo và các thủ tục liên quan, giúp tôi hoàn thành kỳ thực tập một cách suôn sẻ. Giao diện trang chủ Laomusic\t13 Đợt thực tập tốt nghiệp là một cột mốc qu",
+        "chars": 500
+      },
+      {
+        "id": "0e9ad890-5e6b-4aaf-a67c-97fb6f5ed203",
+        "text": "an trọng đối với sinh viên, giúp chuyển giao kiến thức lý thuyết từ giảng đường sang thực tiễn công việc. Tại Tinasoft, một công ty chuyên về giải pháp phần mềm, chúng em đã có cơ hội quý báu để trải nghiệm môi trường làm việc chuyên nghiệp, áp dụng kiến thức thiết kế và lập trình giao diện vào lĩnh vực phát triển phần mềm. Đợt thực tập kéo dài từ ngày 30 tháng 6 đến ngày 17 tháng 8 này không chỉ là cơ hội để trau dồi kỹ năng chuyên môn mà còn là bước đệm quan trọng để định hình con đường sự ngh",
+        "chars": 500
+      },
+      {
+        "id": "205f92d6-e65a-4bc1-9af0-8f5579fbc562",
+        "text": "iệp sau này. Tinasoft là công ty công nghệ chuyên cung cấp các giải pháp phần mềm đa dạng, từ phát triển ứng dụng web, mobile đến các hệ thống quản lý phức tạp. Với đội ngũ kỹ sư giàu kinh nghiệm và môi trường làm việc năng động, đây là nơi lý tưởng để sinh viên được tiếp xúc với các công nghệ tiên tiến và quy trình phát triển phần mềm chuẩn mực. Vị trí lập trình viên Frontend thực tập tại Tinasoft tập trung vào việc phát triển giao diện người dùng cho các ứng dụng web. Các công việc chính bao g",
+        "chars": 500
+      },
+      {
+        "id": "3124680a-ed34-4319-93ed-fd9ce6cd717d",
+        "text": "ồm: chuyển đổi bản thiết kế UI/UX thành mã nguồn, tối ưu hóa hiệu suất giao diện, đảm bảo tính tương thích trên các trình duyệt và thiết bị khác nhau, và phối hợp chặt chẽ với đội ngũ Backend và UI/UX Designer. Tinasoft Việt Nam là một công ty công nghệ chuyên cung cấp các giải pháp phần mềm toàn diện và dịch vụ gia công phần mềm. Công ty tập trung vào việc chuyển đổi số cho doanh nghiệp và phát triển các ứng dụng công nghệ cao. Các lĩnh vực hoạt động chính bao gồm: Phát triển ứng dụng web: Xây",
+        "chars": 500
+      },
+      {
+        "id": "ebae526d-5fec-4b91-af74-af919a1fe5de",
+        "text": "dựng các website, hệ thống quản lý dựa trên nền tảng web. Triển khai hệ thống doanh nghiệp: Triển khai và quản lý các hệ thống quan trọng như ERP, CRM, HRM. Gia công phần mềm: Cung cấp dịch vụ thuê ngoài các đội ngũ phát triển phần mềm cho các đối tác, từ khởi nghiệp đến các tập đoàn lớn trong và ngoài nước. Thiết kế UI/UX: Đảm bảo giao diện người dùng trực quan, thân thiện và trải nghiệm người dùng tối ưu. Cung cấp nền tảng giáo dục trực tuyến, đào tạo lập trình cho doanh nghiệp: Thể hiện sự đa",
+        "chars": 500
+      },
+      {
+        "id": "0968a432-d823-43e4-888d-63868b921725",
+        "text": "dạng trong hoạt động và góp phần vào cộng đồng công nghệ. Công nghệ sử dụng: Tinasoft sử dụng đa dạng các công nghệ tiên tiến trong quá trình phát triển, bao gồm nhưng không giới hạn: Sứ mệnh và tầm nhìn: Tinasoft hướng đến việc trở thành nhà cung cấp hàng đầu các giải pháp phần mềm sáng tạo và là tên tuổi đáng tin cậy trong lĩnh vực gia công công nghệ thông tin, được công nhận về sự xuất sắc, độ tin cậy và tạo ra giá trị lâu dài. Sứ mệnh là cung cấp các giải pháp công nghệ toàn diện, tiết kiệm",
+        "chars": 500
+      },
+      {
+        "id": "9b8e7acb-45e4-41a9-a1fe-871431d55aef",
+        "text": "chi phí và tiên tiến với thời gian phát triển nhanh nhất, giúp khách hàng luôn dẫn đầu trong thế giới kỹ thuật số. Thành tựu: Công ty tự hào đã hoàn thành thành công hàng trăm dự án và thiết lập mối quan hệ bền chặt với nhiều khách hàng trong và ngoài nước, từ các công ty khởi nghiệp, doanh nghiệp vừa và nhỏ đến các tập đoàn lớn trong nhiều lĩnh vực như tài chính, bán lẻ, hậu cần, chăm sóc sức khỏe và sản xuất. Tinasoft Việt Nam chính thức được thành lập vào năm 2018 (theo thông tin đăng ký kin",
+        "chars": 500
+      },
+      {
+        "id": "218488c0-e96f-47d7-a28e-41b4d3ed12ee",
+        "text": "h doanh). Đây là giai đoạn công ty đặt những viên gạch đầu tiên, tập trung vào việc định vị mình trong thị trường công nghệ thông tin đang phát triển sôi động tại Việt Nam. Sau giai đoạn thành lập, Tinasoft nhanh chóng nhận thấy tiềm năng thị trường và bắt đầu mở rộng quy mô cũng như đa dạng hóa các dịch vụ cung cấp. Mở rộng thị trường: Công ty không chỉ dừng lại ở thị trường trong nước mà còn hướng tới các thị trường quốc tế, đặc biệt là các nước có nhu cầu gia công phần mềm cao. Đa dạng hóa cô",
+        "chars": 500
+      },
+      {
+        "id": "50e41dc0-29fa-425e-b467-017e11796ab2",
+        "text": "ng nghệ và giải pháp: Tinasoft bắt đầu đầu tư vào nghiên cứu và áp dụng các công nghệ mới như Big Data, Cloud Computing, AI/Machine Learning (nếu có), và mở rộng các dịch vụ sang phát triển ứng dụng di động, giải pháp doanh nghiệp (ERP, CRM tùy chỉnh). Tăng cường hợp tác: Xây dựng mối quan hệ đối tác chiến lược với các doanh nghiệp trong và ngoài nước, từ các startup đến các tập đoàn lớn, củng cố vị thế trên thị trường. Mở rộng quy mô nhân sự và văn phòng: Số lượng nhân viên tăng lên đáng kể, dẫ",
+        "chars": 500
+      },
+      {
+        "id": "c249e002-aeeb-4256-9fb4-bb0e9df1e0d3",
+        "text": "n đến việc mở rộng hoặc chuyển đến các văn phòng lớn hơn, chuyên nghiệp hơn Hiện tại, Tinasoft Việt Nam đang ở trong giai đoạn phát triển bền vững, tiếp tục củng cố thương hiệu và nâng cao chất lượng dịch vụ. Tập trung vào chất lượng: Công ty chú trọng vào việc cung cấp các sản phẩm và dịch vụ chất lượng cao, đáp ứng đúng và vượt mong đợi của khách hàng. Văn hóa doanh nghiệp: Xây dựng một văn hóa làm việc chuyên nghiệp, thân thiện, khuyến khích sự sáng tạo và học hỏi liên tục. Đây cũng là điều m",
+        "chars": 500
+      },
+      {
+        "id": "366c6406-b3b2-46b0-a6be-df6a63c4c465",
+        "text": "à bạn và nhóm đã trải nghiệm trong quá trình thực tập. Đóng góp cho cộng đồng: Tham gia vào các hoạt động cộng đồng công nghệ, đào tạo và phát triển nguồn nhân lực CNTT. Công ty TinaSoft là một công ty được các đối tác và khách hàng tin tưởng và công nhận như là một đối tác công nghệ đáng tin cậy cho các doanh nghiệp trong nhiều ngành, cả trong nước và quốc tế có thể kể đến như: Hiện tại công ty TinaSoft đang là một công ty công nghệ cung cấp nhiều dịch vụ phát triển phần mềm và CNTT với hơn 300",
+        "chars": 500
+      },
+      {
+        "id": "ecdf2d8c-590a-4f1a-8fb9-0bf4bc8e2ed8",
+        "text": "dự án, 100 đối tác trải dài trên hơn 6 thị trường, được điều hành bởi các giám đốc công ty có kinh nghiệm lâu năm: (Mô tả chi tiết việc thực hiện các phần việc trên thực tế theo từng tuần hoặc mốc thời gian, kèm theo chi tiết về kỹ thuật, công nghệ, công cụ sử dụng, cũng như kết quả đạt được cho mỗi đầu công việc/nhiệm vụ) Trong quá trình thực tập, em được giao nhiệm vụ xây dựng Trang chủ của ứng dụng web Laomusic. Mục tiêu chính là tạo ra một giao diện người dùng trực quan, hấp dẫn, cho phép h",
+        "chars": 500
+      },
+      {
+        "id": "3bef0649-82ab-4634-a05e-d8e0b702d801",
+        "text": "iển thị và quản lý thông tin các bài hát một cách hiệu quả. Trang chủ phải là nơi tổng hợp các danh sách nhạc nổi bật, album mới và thông tin chi tiết về từng bài hát, từ đó mang lại trải nghiệm khám phá âm nhạc tốt nhất cho người dùng. Để hoàn thành nhiệm vụ này, em tập trung vào việc phát triển các thành phần (component) giao diện người dùng (UI) có tính tái sử dụng cao. Hiệu ứng tương tác: Thêm các hiệu ứng khi trỏ chuột (hover), giúp làm nổi bật các component bài hát, tạo cảm giác tương tác",
+        "chars": 500
+      },
+      {
+        "id": "dd26e6f9-185d-4f1f-94b4-d54cfbdc195f",
+        "text": "mượt mà và trực quan cho người dùng. Hiệu ứng cuộn ngang (Horizontal Slide): Các danh sách bài hát được sắp xếp theo dạng cuộn ngang, giúp tiết kiệm không gian và cho phép người dùng lướt qua nhiều bài hát một cách dễ dàng. Để đảm bảo hiệu quả và chất lượng sản phẩm, em đã sử dụng kết hợp các công nghệ và thư viện hiện đại: Điều này giúp đẩy nhanh tốc độ phát triển và đảm bảo tính đồng nhất về mặt thiết kế. Thư viện này cho phép dễ dàng chèn hàng ngàn icon chất lượng cao từ các bộ icon phổ biến",
+        "chars": 500
+      },
+      {
+        "id": "b7b50a76-3b5c-4056-97f7-83b7be32bdf6",
+        "text": "như Font Awesome, Material Design, v.v., vào dự án của mình. Giao diện được xây dựng bám sát thiết kế của nhóm thiết kế giao diện Giao diện trang chủ Laomusic Trong tuần thực tập thứ hai, em được giao nhiệm vụ xây dựng chức năng tìm kiếm nhạc toàn diện cho ứng dụng. Mục tiêu chính là tạo ra một trải nghiệm tìm kiếm nhanh chóng, hiệu quả và thân thiện với người dùng. Thiết kế và phát triển giao diện người dùng (UI): Tạo một thành phần tìm kiếm trực quan, dễ sử dụng và tích hợp hài hòa với tổng th",
+        "chars": 500
+      },
+      {
+        "id": "b84d2006-7100-4ddf-98da-a807d77b9255",
+        "text": "ể giao diện. Tối ưu hóa hiệu suất: Áp dụng các kỹ thuật như debounce để giảm số lượng cuộc gọi API, từ đó giảm tải cho máy chủ và tăng tốc độ phản hồi. Thành phần SearchInput (Input tìm kiếm): Đây là thành phần giao diện chính nơi người dùng nhập từ khóa tìm kiếm. Thành phần này được thiết kế để lắng nghe sự thay đổi của người dùng và kích hoạt logic tìm kiếm. Debounce Function: Một hàm xử lý được tạo ra để chỉ thực thi cuộc gọi API sau một khoảng thời gian ngắn (sau 500ms) sau khi người dùng ng",
+        "chars": 500
+      },
+      {
+        "id": "62550538-8d95-4f58-8d07-fd69717cf3aa",
+        "text": "ừng nhập. Điều này ngăn chặn các cuộc gọi không cần thiết với mỗi lần gõ phím. HTML & CSS: Ngôn ngữ đánh dấu và phong cách để xây dựng cấu trúc và giao diện cho các thành phần. Debounce: Kỹ thuật tối ưu hóa hiệu suất để giới hạn tần suất các cuộc gọi hàm. Chức năng tìm kiếm đã được xây dựng thành công, cho phép người dùng tìm kiếm bài hát một cách nhanh chóng và hiệu quả. Việc áp dụng kỹ thuật debounce đã giúp tối ưu hóa hiệu suất, mang lại trải nghiệm mượt mà và giảm tải đáng kể cho hệ thống. T",
+        "chars": 500
+      },
+      {
+        "id": "ae5e3ea4-a3cc-4bcd-92c6-85c5287caa80",
+        "text": "rong tuần thực tập thứ ba, em đã tập trung vào việc xây dựng và tích hợp chức năng modal nâng cấp tài khoản trên trang chủ. Mục tiêu chính là khuyến khích người dùng nâng cấp tài khoản, đồng thời đảm bảo luồng điều hướng mượt mà và logic xác thực người dùng chặt chẽ. Thiết kế và phát triển Modal: Tạo một modal (hộp thoại) với giao diện người dùng trực quan để mời người dùng nâng cấp tài khoản. Kiểm tra và xác thực trạng thái người dùng: Viết các điều kiện để xác định trạng thái đăng nhập và loại",
+        "chars": 500
+      },
+      {
+        "id": "ed993e90-8bd9-4dfc-83e1-6e33b6077e2a",
+        "text": "tài khoản (tài khoản miễn phí hay trả phí), từ đó đưa ra quyết định điều hướng phù hợp. Thành phần UpgradeModal: Đây là thành phần giao diện chính, được hiển thị dưới dạng pop-up trên trang chủ. Modal này bao gồm thông điệp mời gọi và một nút kêu gọi hành động (Call to Action). Việc tích hợp chặt chẽ với logic đăng nhập và xác thực đã tạo ra một luồng người dùng liền mạch và hiệu quả, giúp nâng cao khả năng chuyển đổi người dùng lên tài khoản trả phí. Trong tuần thực tập thứ tư, em đã được chuy",
+        "chars": 500
+      },
+      {
+        "id": "00314b8f-4479-48a4-8c5a-910ca4cc02e6",
+        "text": "ển sang một dự án mới: phát triển trang web chính của công ty. Mục tiêu chính là trình bày một cách rõ ràng và hấp dẫn về lợi ích của giải pháp này, đồng thời làm nổi bật khả năng tích hợp của nó vào các ứng dụng và dịch vụ khác nhau. Xây dựng cấu trúc trang: Thiết kế và triển khai cấu trúc trang web giới thiệu về giải pháp Tina SSO, bao gồm các phần như giới thiệu tổng quan, tính năng nổi bật, lợi ích và sơ đồ hoạt động. Trình bày thông tin sản phẩm: Viết nội dung và chọn lọc hình ảnh phù hợp đ",
+        "chars": 500
+      },
+      {
+        "id": "8fc7fef0-e66a-4482-8f50-7916c543cd60",
+        "text": "ể giải thích một cách dễ hiểu về SSO và cách Tina SSO hoạt động. Thiết kế giao diện người dùng: Tạo một giao diện chuyên nghiệp, hiện đại và trực quan để thu hút người dùng và truyền tải thông điệp của sản phẩm một cách hiệu quả. Tối ưu hóa hiển thị: Đảm bảo trang web hiển thị tốt trên mọi thiết bị (responsive design) để mang lại trải nghiệm xem liền mạch cho người dùng. Phần giới thiệu chung (Hero Section): Thiết kế một phần đầu trang nổi bật với tiêu đề mạnh mẽ và mô tả ngắn gọn về Tina SSO. P",
+        "chars": 500
+      },
+      {
+        "id": "dbf3963f-ba11-4cf6-9421-ec856b863560",
+        "text": "hần này sẽ bao gồm một nút đặt lịch hẹn cho dự án (Book a meeting) để người dùng tìm hiểu thêm hoặc đăng ký. Em đã sử dụng hình ảnh trực quan để mô tả, giúp người dùng dễ hình dung hơn. Phần \"Tính năng và Lợi ích\": Liệt kê các tính năng chính của Tina SSO dưới dạng danh sách gồm biểu tượng kèm theo mô tả ngắn gọn về lợi ích của từng tính năng. Các lợi ích bao gồm quản lý người dùng tập trung, trải nghiệm người dùng tốt hơn,  nâng cao bảo mật, cải thiện năng suất. Giao diện này giúp người dùng tr",
+        "chars": 500
+      },
+      {
+        "id": "37d1a483-24d3-46a9-8d2d-4240c918311e",
+        "text": "ực quan hóa và hiểu hơn về khái niệm và công dụng của SSO. Em đã hoàn thành việc xây dựng trang giới thiệu Tina SSO với giao diện chuyên nghiệp và nội dung rõ ràng, dễ hiểu theo đúng thiết kế của đội ngũ thiết kế giao diện. Trang web này không chỉ giới thiệu thành công về sản phẩm mà còn làm nổi bật những giá trị cốt lõi của giải pháp SSO mà công ty cung cấp. Tối ưu hóa Giao diện và Bản địa hóa Nội dung Trong tuần thực tập thứ năm, em tiếp tục làm việc trên dự án trang web của công ty. Nhiệm vụ",
+        "chars": 500
+      },
+      {
+        "id": "008abdf3-1850-44df-b61d-32d9282214a0",
+        "text": "chính là tinh chỉnh và tối ưu hóa giao diện người dùng theo thiết kế mới, đồng thời đảm bảo trang web hoạt động tốt trên mọi thiết bị. Sửa lỗi giao diện và responsive: Căn chỉnh lại các thành phần UI để phù hợp với bản thiết kế cuối cùng và khắc phục các lỗi hiển thị trên các kích thước màn hình khác nhau, đặc biệt là trên thiết bị di động. Bản địa hóa nội dung: Bọc và dịch một số nội dung quan trọng trên trang web để hỗ trợ ngôn ngữ tiếng Việt, tiếng Anh, tiếng Hàn và tiếng Nhật giúp mở rộng ph",
+        "chars": 500
+      },
+      {
+        "id": "a32311d5-c54b-48d4-94aa-d2e06ae1a144",
+        "text": "ạm vi tiếp cận của trang web. Đảm bảo hình ảnh tự động điều chỉnh kích thước phù hợp với màn hình. Kiểm tra và sửa lỗi trên các trình duyệt và thiết bị phổ biến để đảm bảo tính nhất quán. Bản địa hóa (i18n): Sử dụng một thư viện quản lý bản địa hóa i18next để quản lý các chuỗi văn bản. Bọc các chuỗi văn bản trong các hook dịch thuật, cho phép nội dung tự động chuyển đổi khi người dùng thay đổi ngôn ngữ. Em đã hoàn thành việc tối ưu hóa giao diện người dùng, giúp trang web hiển thị chính xác và c",
+        "chars": 500
+      },
+      {
+        "id": "4f865e70-e2a9-47ac-bd37-136410704b56",
+        "text": "huyên nghiệp trên mọi thiết bị. Đồng thời, việc bản địa hóa nội dung đã giúp trang web sẵn sàng tiếp cận người dùng quốc tế, mở rộng tiềm năng kinh doanh của công ty. Trong hai tuần này, em được chuyển sang một dự án hoàn toàn mới, một hệ thống CMMS quản lý nhân sự cho chi nhánh ngân hàng. Nhiệm vụ chính của em là dành thời gian để nghiên cứu sâu về Angular và phân tích mã nguồn hiện có của khách hàng. Phân tích Mã nguồn Khách hàng: Đọc, hiểu và phân tích cách tổ chức mã nguồn, luồng dữ liệu, và",
+        "chars": 500
+      },
+      {
+        "id": "9ca210f1-b039-485c-8eb0-cb2a68f8d3e0",
+        "text": "cách thức tương tác giữa các thành phần. Hợp tác và Thảo luận: Tham gia các buổi họp với khách hàng để làm rõ yêu cầu về giao diện và các công cụ hỗ trợ cần thiết cho dự án. Angular được đánh giá cao về tính cấu trúc, bảo mật và hiệu suất, rất phù hợp cho các ứng dụng doanh nghiệp lớn. Các khái niệm cốt lõi: Tôi đã tìm hiểu về các khái niệm quan trọng của Angular, bao gồm: Phân tích mã nguồn Xác định nhiệm vụ: Dựa trên kết quả nghiên cứu và phân tích, nhóm đã xác định được các nhiệm vụ cụ thể c",
+        "chars": 500
+      },
+      {
+        "id": "2107aad6-ab88-402a-b53a-f4663640e6e2",
+        "text": "ho giai đoạn phát triển tiếp theo, bao gồm việc sửa chữa và bổ sung các tính năng. Em hiểu rõ cấu trúc của mã nguồn dự án CMMS và các luồng hoạt động chính. Điều này giúp em sẵn sàng tham gia vào việc phát triển các tính năng tiếp theo một cách hiệu quả và tự tin. Trong tuần đầu tiên em xây dựng trang chủ của ứng dụng web Laomusic. Mục tiêu chính là tạo ra một giao diện người dùng dễ nhìn, dễ theo dõi và dễ thao tác. Trang chủ là nơi show được những danh sách nhạc nổi bật, những nghệ sĩ nổi tiến",
+        "chars": 500
+      },
+      {
+        "id": "9a832cec-980b-4852-a3b3-8f24eadbfec9",
+        "text": "g và những danh sách nghe nhiều nhất trong ngày để đem lại cho người dùng những lựa chọn tốt nhất. Để hoàn thành những công việc được giao, em chọn sử dụng những component có tính sử dụng lại cao, dễ sửa đổi. Hiệu ứng tương tác: Thêm hiệu ứng hover để người dùng dễ tương tác hơn với từng bài. Hiệu ứng thanh cuộn: Giúp cho danh sách bài hát gọn gàng và người dùng dễ theo dõi, nâng cao trải nghiệm của trang web Trong 2 tuần này, em được giao nhiệm vụ xây dựng các chức năng tìm kiếm nhạc trên thanh",
+        "chars": 500
+      },
+      {
+        "id": "72de01d6-043b-44cc-a9c9-10611cdae197",
+        "text": "Search Bar, mục tiêu là tạo một trải nghiệm dễ dùng cho người sử dụng . Thành phần searchInput: Thành phần giao diện chính nơi người dùng nhập từ khóa tìm kiếm. Trong 2 tuần này, em tiếp tục cải tiến trang web, nhiệm vụ chính là làm cho việc phát nhạc hoạt động, có thể chuyển nhạc, dừng, phát tiếp. Tuần 6 và 7: Sử dụng dữ liệu lấy được từ swagger của công ty để hoàn thiện giao diện album và các thành phần trong album Trong 2 tuần này, em được cung cấp swagger UI của công ty để có thể bổ sung dữ",
+        "chars": 500
+      },
+      {
+        "id": "5b7fd935-4110-4563-9f91-e12b4181d285",
+        "text": "liệu cho album. Mục tiêu là làm đa dạng trang web, giúp cho trải nghiệm người dùng không bị gò bó và giới hạn. - Thiết kế và phát triển giao diện người dùng: Tối ưu hóa thanh album để dễ sử dụng và hài hòa với tổng thể giao diện. Thanh album: Đây là thành phần giao diện lưu trữ dữ liệu thu được. Trong quá trình tham gia các dự án (ứng dụng nhạc, giới thiệu công ty và bảo mật ngân hàng), chúng em đã củng cố và mở rộng kiến thức về ReactJs và các kiến thức liên quan đến lập trình giao diện: Điều",
+        "chars": 500
+      },
+      {
+        "id": "e1e08cd1-d56d-4b1f-b58e-af88f71e66a2",
+        "text": "này không chỉ giúp phát hiện lỗi sớm trong quá trình phát triển mà còn cải thiện đáng kể tính ổn định và khả năng đọc hiểu của mã nguồn. Tiếp cận và áp dụng một số mẫu thiết kế (Design Pattern) phổ biến trong React.js để giải quyết các vấn đề phức tạp. Điều này giúp mã nguồn trở nên rõ ràng hơn, dễ kiểm thử và tái sử dụng hơn, đặc biệt trong dự án ứng dụng nghe nhạc, nơi cần xử lý nhiều luồng dữ liệu khác nhau. Việc chuyển sang dự án CMMS với Angular đã mang lại một cơ hội học hỏi quý báu. Nhóm",
+        "chars": 500
+      },
+      {
+        "id": "07255de7-9aa7-415e-b372-bad68409b823",
+        "text": "đã dành thời gian nghiên cứu và làm quen với một hệ sinh thái khác, từ đó mở rộng kiến thức và kỹ năng. Tiếp cận nền tảng mới: Thay vì chỉ tập trung vào thư viện React.js, chúng em đã học cách làm việc với một Framework hoàn chỉnh. Điều này giúp hiểu rõ hơn về tính cấu trúc, nguyên tắc hoạt động và luồng dữ liệu trong một ứng dụng Angular. Phân tích Codebase: Rèn luyện kỹ năng đọc và phân tích mã nguồn phức tạp, tìm hiểu cách các thành phần trong một dự án lớn được tổ chức và liên kết với nhau,",
+        "chars": 500
+      },
+      {
+        "id": "fcdfface-9edc-484b-badb-418dddfbd87e",
+        "text": "từ đó rút ra kinh nghiệm để áp dụng cho các dự án sau này. Tăng cường khả năng làm việc thực tế: Áp dụng các kiến thức đã học ở trường vào các dự án cụ thể. Kỹ năng xử lý vấn đề: Trong quá trình phát triển các tính năng cho dự án ứng dụng nhạc, chúng em đã học cách xác định lỗi, tìm kiếm, đề xuất giải pháp và khắc phục chúng một cách hiệu quả. Điều này không chỉ giúp cả nhóm hoàn thành công việc mà còn hiểu sâu hơn về cơ chế hoạt động của mã nguồn. Kỹ năng làm việc chuyên nghiệp với Git: Nâng ca",
+        "chars": 500
+      },
+      {
+        "id": "a4861112-0432-4a5d-b8c4-a8b404c719cd",
+        "text": "o khả năng làm việc nhóm thông qua việc áp dụng các quy tắc quản lý mã nguồn chặt chẽ. Quản lý Merge Request: Học cách tạo các yêu cầu hợp nhất, mô tả chi tiết các thay đổi và yêu cầu đánh giá từ các thành viên khác trong nhóm, đảm bảo chất lượng code trước khi gộp vào nhánh chính. Tinh thần học hỏi và chủ động: Chúng em luôn giữ thái độ tích cực, chủ động tìm hiểu các công nghệ mới và các vấn đề phát sinh trong quá trình làm việc. Đồng thời cũng không ngại đặt câu hỏi và tiếp thu ý kiến đóng gó",
+        "chars": 500
+      },
+      {
+        "id": "3d4043db-7964-4259-9c69-f31c74700f24",
+        "text": "p từ các anh/chị hướng dẫn để cải thiện bản thân. Kỷ luật và tuân thủ quy trình: Cả nhóm đã làm quen và tuân thủ các quy trình làm việc của công ty, bao gồm việc sử dụng các công cụ quản lý mã nguồn như Git, các công cụ quản lý dự án (Jira) và tham gia các buổi họp nhóm hàng ngày. Tinh thần trách nhiệm: Nhóm luôn hoàn thành công việc được giao đúng thời hạn và đảm bảo chất lượng. Khi gặp khó khăn, các thành viên đã chủ động báo cáo và tìm kiếm sự hỗ trợ kịp thời để không làm ảnh hưởng đến tiến đ",
+        "chars": 500
+      },
+      {
+        "id": "3841f1b3-6a07-4bd6-a749-9d3a02575e5f",
+        "text": "ộ chung của dự án. Kỹ năng làm việc nhóm: Học cách phối hợp với các thành viên khác trong nhóm và các nhóm khác trong dự án như BackEnd, BA, UI/UX design, Tester, lắng nghe và chia sẻ ý tưởng để cùng nhau đạt được mục tiêu chung của dự án.",
+        "chars": 239
+      },
+      {
+        "id": "6a349013-12c7-4799-9537-e3f436985151",
+        "text": "MỤC LỤC DANH MỤC CÁC HÌNH VẼ\t3 DANH MỤC CÁC BẢNG BIỂU\t4 DANH MỤC CÁC TỪ VIẾT TẮT\t5 Cơ cấu tổ chức\t9 DANH MỤC CÁC HÌNH VẼ Cơ cấu ban quản lý công ty\t10 DANH MỤC CÁC BẢNG BIỂU DANH MỤC CÁC TỪ VIẾT TẮT Cơ cấu tổ chức Cơ cấu ban quản lý công ty Cụ thể: Cụ thể, các mục tiêu bao gồm: Các thành phần chính Cụ thể, các mục tiêu bao gồm: Các thành phần chính Các thành phần UI: Cụ thể, các mục tiêu bao gồm: b. Các thành phần chính Mục tiêu cụ thể của tuần này bao gồm: Các thành phần chính Mục tiêu cụ thể c",
+        "chars": 500
+      },
+      {
+        "id": "3ebfee5b-7170-45f1-80d4-d418f1a74c7b",
+        "text": "ủa giai đoạn này bao gồm: Cụ thể: b. Các thành phần chính: Cụ thể bao gồm: Các thành phần chính: Cụ thể các mục tiêu bao gồm: Các thành phần chính:",
+        "chars": 147
+      },
+      {
+        "id": "b8d93737-5216-4bde-a42f-89019c86871f",
+        "text": "1.1. 1.2. 1.3. 2.1. 2.2. 3.1. 3.1.1. 3.1.2. 3.1.3. 3.1.4. 3.2. 3.2.1. 3.2.2. 1.1. 1.2. 1.3. 2.1. 2.2. 3.1. 3.1.1. 3.1.2. 3.1.3. 3.1.4. 3.2. 3.2.1. 3.2.2.",
+        "chars": 153
+      },
+      {
+        "id": "8424dc69-1af9-4d59-9ff3-0ce591258f5c",
+        "text": "a. Nhiệm vụ và mục tiêu Nhiệm vụ và mục tiêu Nhiệm vụ và Mục tiêu Nhiệm vụ và mục tiêu Nhiệm vụ và mục tiêu Nhiệm vụ và mục tiêu Nhiệm vụ và mục tiêu: a. Nhiệm vụ và mục tiêu Nhiệm vụ và mục tiêu: Nhiệm vụ và mục tiêu:",
+        "chars": 218
+      },
+      {
+        "id": "eed40fdc-1f25-4ca5-a54c-6a2901ede1a5",
+        "text": "Hình 1.3.1. Hình 1.3.2. Hình 2.2.1.1. Hình 2.2.1.2. Hình 2.2.1.3. Hình 2.2.1.4. Hình 1.3.1. Hình 1.3.2. Hình 2.2.1.1. Hình 2.2.1.2. Hình 2.2.1.3. Hình 2.2.1.",
+        "chars": 157
+      },
+      {
+        "id": "7b815373-e4b0-4127-8cd3-27aaf5e6bf46",
+        "text": "Tương tác API\t27 Xây dựng Chức năng Tìm kiếm và Tích hợp API Tích hợp API hiệu quả: Kết nối với API cung cấp dữ liệu bài hát và xử lý các yêu cầu một cách tối ưu. Logic tích hợp API: HTTP Request: Sử dụng thư viện Axios hoặc Fetch API để gửi các yêu cầu GET đến endpoint của API bài hát. Tích hợp API: Fetch API: API tích hợp sẵn của trình duyệt để xử lý các yêu cầu HTTP. Tuần 2 và 3: Xây dựng chức năng tìm kiếm và tích hợp API Logic tích hợp API: HTTP request:Sử dụng thư viện Axios hoặc Fetch API",
+        "chars": 500
+      },
+      {
+        "id": "da11e0c1-ff0c-4b28-a8d9-30d1c45a6572",
+        "text": "để gửi yêu cầu get đến Endpoint của API bài hát. Tích hợp API: Fetch API: API tích hợp sẵn để trình duyệt dễ xử lý yêu cầu HTTP. - Tích hợp API hiệu quả: Kết nối với API để cung cấp dữ liệu bài hát. Logic tích hợp API: HTTP Request. sử dụng thư viện Axios hoặc Fetch API để gửi các yêu cầu GET đến endpoint của API bài hát Tích hợp API: Fetch API: API tích hợp sẵn của trình duyệt để xử lý các yêu cầu HTTP. Tương tác API Call API: Thực hành gọi các API (Application Programming Interface) từ phía F",
+        "chars": 500
+      },
+      {
+        "id": "b3eafa85-1159-4c51-89d7-3e3ad30e5a06",
+        "text": "ront-end để lấy dữ liệu.",
+        "chars": 24
+      }
+    ]
+  },
+  {
+    "book": "bc",
+    "mode": "semantic",
+    "settings": {
+      "max_chars": 500,
+      "n_clusters": 8
+    },
+    "chunks": [
+      {
+        "id": "cd5ea50e-e750-4643-aca7-4fa9ea30e010",
+        "text": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG ----- ----- BÁO CÁO MÔN HỌC : CÁC GIẢI PHÁP VÀ HỆ THỐNG IOT TIÊN TIẾN Nhóm 6 Đề tài: Bãi đỗ xe thông minh Giảng viên môn học: Ngô Thu Trang Lớp : D21VTHI02 Sinh viên thực hiện: LỜI MỞ ĐẦU Trong bối cảnh đô thị hóa diễn ra mạnh mẽ tại Việt Nam, đặc biệt là trong các thành phố lớn (như Hà Nội, tp Hồ Chí Minh, Đà Nẵng ,...),số lượng phương tiện cá nhân liên tục tăng nhanh tại các đô thị đã dẫn tới tình trạng quá tải tại nhiều đô thị lớn trong cả nước. Việc tổ",
+        "chars": 500
+      },
+      {
+        "id": "564d7e85-7b8f-4824-bc50-ffaa79bbecaa",
+        "text": "chức giao thông, quản lý phương tiện vận tải đã có nhiều tiến bộ song chưa đáp ứng được yêu cầu, gây ra tình trạng ùn tắc giao thông ngày càng nghiêm trọng, làm giảm chất lượng đời sống của người dân. Đặc biệt trong khác khu tập trung đông dân cư tình trạng thiếu hụt không gian đỗ xe và những bất cập trong quản lý, vận hành các bãi đỗ xe truyền thống. Điều này không chỉ gây khó khăn cho người dân trong việc tìm kiếm, lãng phí thời gian à còn tạo ra những hệ lụy không nhỏ đến trật tự an toàn gia",
+        "chars": 500
+      },
+      {
+        "id": "f425979b-b4f8-4eef-9558-d58788a4d0d5",
+        "text": "o thông và hoạt động kinh tế. Dựa trên những hiện trạng đó, nhóm sinh viên chúng em quyết định triển khai đề tài Bãi đỗ xe thông minh, với mục tiêu giảm áp lực cho người dân, tiết kiệm thời gian trong việc tìm kiếm bãi đỗ phù hợp, ứng dụng các công nghệ hiện đại phù hợp với mục tiêu đô thị hóa đất nước. Bãi đỗ xe thông minh được thiết kế nhằm giám sát, thu thập và trực quan hóa dữ liệu về tình trạng đỗ xe. Cụ thể, hệ thống sẽ sử dụng cảm biến hồng ngoại để giám sát trạng thái chiếm dụng của từng",
+        "chars": 500
+      },
+      {
+        "id": "03c71fdd-8aba-4202-9972-f5fcdfcbdc02",
+        "text": "vị trí đỗ xe, xác định khu vực nào đang có xe và khu vực nào còn trống. Toàn bộ dữ liệu thu thập được từ cảm biến và RFID sẽ được hiển thị một cách trực quan trên màn hình LCD đặt tại các vị trí dễ quan sát trong bãi đỗ xe, giúp người dùng nhanh chóng nắm bắt được tình hình chỗ trống. Dữ liệu này cũng sẽ đồng thời được hiển thị trên giao diện web, cho phép người quản lý giám sát và theo dõi tình trạng bãi đỗ xe từ xa, cũng như cung cấp khả năng truy cập thông tin cho người dùng thông qua trình",
+        "chars": 500
+      },
+      {
+        "id": "6a89ef14-5c61-4881-928c-d7216ee2d9b5",
+        "text": "duyệt web. So với các bãi đỗ xe truyền thống, Bãi đỗ xe thông minh giảm thiểu đáng kể sự tác động của con người trong quá trình vận hành hàng ngày. Hệ thống chủ yếu đòi hỏi sự can thiệp thủ công duy nhất ở khâu đăng ký thông tin cho người và phương tiện được phép ra vào bãi đỗ. Ngoại trừ thao tác đăng ký ban đầu này, toàn bộ quá trình quản lý và giám sát bãi đỗ xe diễn ra một cách hoàn toàn tự động. Điều này giảm đáng kể chi phí nhân công liên quan đến việc điều phối, hướng dẫn đỗ xe, và kiểm so",
+        "chars": 500
+      },
+      {
+        "id": "3acc3ed9-b8a2-4632-94e7-af27b61e04c8",
+        "text": "át ra vào. Hệ thống Bãi đỗ xe thông minh này được thiết kế để đáp ứng nhu cầu quản lý hiệu quả tại các địa điểm như tòa nhà văn phòng, khu vực trụ sở công ty 1 và các khu chung cư có quy mô bãi đỗ xe không quá lớn. Khả năng tự động hóa và giám sát trực quan của hệ thống giúp tối ưu hóa việc sử dụng không gian đỗ, nâng cao sự tiện lợi cho người dùng và giảm thiểu các chi phí vận hành liên quan đến quản lý bãi đỗ xe tại các khu vực này. Hình 1 Hệ thống hoàn chỉnh 2 Triển Khai Và Thiết Kế .........",
+        "chars": 500
+      },
+      {
+        "id": "20d96cd6-9007-40fe-a1e5-16e3980d61dd",
+        "text": ".................................................... 23 A) Bãi đỗ xe thông minh đánh dấu chỗ đỗ ....................................... 23 B) Phần cổng ra vào dành cho việc giám sát vàora và an ninh ....... 24 C) Hệ thống báo cháy ....................................................................... 27 2.2. ................................. 24 Hình 20 Danh sách thông tin vàora ......................................................... 26 Hình 21 Danh sách người dùng ............................",
+        "chars": 500
+      },
+      {
+        "id": "f099433b-e3e9-4573-b99a-bab38d939471",
+        "text": ".................................... 27 Hình 22 Sơ đồ bản mạch hệ thống báo cháy. CHƯƠNG I: CƠ SỞ LÝ THUYẾT 1.1 VI ĐIỀU KHIỂN 1.1.1 ESP32: Bộ vi điều khiển chính, có hỗ trợ kết nối WiFi để truyền dữ liệu về hệ thống giám sát. Thông số kỹ thuật của ESP32 DevKit V1: Mạch Arduino Uno thích hợp cho những bạn mới tiếp cận và đam mê về điện tử, lập trìnhDựa trên nền tảng mở do Arduino.cc cung cấp các bạn dễ dàng xây dựng cho mình một dự án nhanh nhất ( lập trình Robot, xe tự hành, điều khiển bật tắt l",
+        "chars": 500
+      },
+      {
+        "id": "fcbc3c97-4db4-4d95-856e-47a6e52e35fa",
+        "text": "ed). Thông số kỹ thuật: Các cảm biến này hoạt động dựa trên nguyên lý phát và nhận tia hồng ngoại, cho phép chúng phát hiện sự hiện diện, khoảng cách hoặc nhiệt độ của vật thể. Với khả năng phát hiện bức xạ hồng ngoại mà mắt người không thể nhìn thấy, cảm biến IR được ứng dụng rộng rãi trong nhiều lĩnh vực khác nhau. Một trong những ứng dụng phổ biến của cảm biến IR là trong hệ thống điều khiển từ xa, như remote TV, điều hòa không khí và các thiết bị điện tử gia dụng khác. Ngoài ra, cảm biến IR",
+        "chars": 500
+      },
+      {
+        "id": "7f1a1438-5afd-4c10-b36c-a0246071b3e0",
+        "text": "còn được sử dụng trong các hệ thống an ninh để phát hiện chuyển động, trong công nghiệp để đo khoảng cách hoặc tốc độ, và trong y tế để đo nhiệt độ cơ thể mà không cần tiếp xúc trực tiếp. Khả năng hoạt động trong môi trường ánh sáng yếu và tiêu thụ năng lượng thấp là những ưu điểm nổi bật của cảm biến hồng ngoại. Tuy nhiên, cảm biến IR cũng có những hạn chế nhất định, như dễ bị ảnh hưởng bởi các nguồn nhiệt hoặc ánh sáng hồng ngoại khác, dẫn đến sai số trong đo lường. Để khắc phục, việc thiết kế",
+        "chars": 500
+      },
+      {
+        "id": "e53ab904-2851-4d61-9c77-e78fcd2e697e",
+        "text": "và lắp đặt cảm biến cần được thực hiện cẩn thận, đảm bảo giảm thiểu tác động của các yếu tố ngoại vi. Ngoài ra, việc hiệu chuẩn định kỳ cũng giúp duy trì độ chính xác và hiệu suất của cảm biến trong quá trình sử dụng. Cấu tạo của cảm biến hồng ngoại như sau:I R Sensor được hoạt động dựa trên nguyên tắc của cảm biến ánh sáng. Vì vậy cấu tạo của cảm biến hồng ngoại sẽ tương tự như cảm biến ánh sáng: Đèn led hồng ngoại: Đây là thiết bị được phát ra từ nguồn sáng hồng ngoại Máy dò hồng ngoại: Là th",
+        "chars": 500
+      },
+      {
+        "id": "469f42fe-3a9b-4415-93e0-d808a18c573a",
+        "text": "iết bị nhận tín hiệu và phát hiện ra bức xạ hồng ngoại phản xạ trở lại Điện trở: Là thiết bị có tác dụng đi cường độ dòng điện quá lớn chạy quá đèn led làm cho hệ thống chập cháy Dây điện: Tác dụng chính là kết nối các chi tiết để tạo nên cảm biến hoạt động ổn định Led phát hồng ngoại luôn luôn phát ra sóng ánh sáng có bước sóng hồng ngoại, led thu bình thường có nội trở lớn, khi led thu nhận tia hồng ngoại chiếu vào đủ lớn thì nội trở giảm xuống. Trường hợp khi có vật cản phía trước thì những c",
+        "chars": 500
+      },
+      {
+        "id": "72ddcbd9-e7f6-4f98-838e-ad0aecb87362",
+        "text": "hùm tia hồng ngoại đập vào vật cản và phản xạ lại led thu làm cho nó thay đổi giá trị nội trở và dẫn đến thay đổi mức điện áp ở phái đầu vào của op amp. Khi khoảng cách càng gần thì sự thay đổi sẽ càng lớn. Và khi đó điện áp đầu vào không đảo được đánh giá với giá trị điện áp sẽ không đổi ghim trên biến trở R3. Nếu như giá trị điện áp đầu vào không đảo lớn hơn đầu vào đảo, op amp xuất ra mức 1, nếu như áp đầu vào không đảo nhỏ hơn đầu vào đảo, op amp sẽ xuất ra mức 0. Biến trở R3 sẽ dùng để điều",
+        "chars": 500
+      },
+      {
+        "id": "76ea0559-bc1a-47a6-8115-ce9e6f39bc88",
+        "text": "chỉnh độ nhạy của mạch. Ban đầu, chất này không nhạy với không khí sạch, nhưng khi tiếp xúc với chất gây cháy, khả năng dẫn điện của nó sẽ thay đổi ngay lập tức. Điều này đã tạo điều kiện cho việc tích hợp nó vào mạch đơn giản, chuyển đổi độ nhạy thành tín hiệu điện. Tuy nhiên, khi nồng độ khí gây cháy xung quanh tăng lên, giá trị điện áp xuất ra cũng tăng theo. Điều này làm cho nó trở thành lựa chọn phổ biến trong cả ngành công nghiệp và sử dụng dân dụng, nhờ vào mạch điện đơn giản và chi phí",
+        "chars": 500
+      },
+      {
+        "id": "c0f4cc73-caa1-4711-9ae5-48b8926611be",
+        "text": "sản xuất thấp. Khi phát hiện thấy ngọn lửa, cảm biến ngọn lửa sẽ truyền tín hiệu đến hệ thống báo cháy để kích hoạt chuông báo động, đèn nhấp nháy và các biện pháp dập lửa tự động. Cảm biến lửa thường được sử dụng cho các ứng dụng phát hiện lửa như: xe robot chữa cháy, Tầm phát hiện trong khoảng 80cm, góc quét là 60 độ, có thể phát hiện lửa tốt nhất là loại có bước sóng từ 760nm 1100nm. Dịch ra tiếng Việt có nghĩa là công nghệ nhận dạng đối tượng bằng sóng vô tuyến. Hiểu một cách đơn giản thì ha",
+        "chars": 500
+      },
+      {
+        "id": "8ae64eb5-c5fd-468e-9984-e22f415dff63",
+        "text": "i thiết bị phát ra sóng điện từ, có cùng một tần số khi gặp nhau có thể nhận dạng được nhau. Tần số 125Khz và 900Khz là hai tần số thường được sử dụng trong RFID mà chúng ta có thể gặp. Thiết bị phát mã sẽ được gắn vào vật cần được nhận dạng còn thiết bị đọc sẽ được gắn anten giúp thu phát sóng điện tử. Khi hai thiết bị gặp nhau, tần số trùng khớp thì sẽ nhận dạng được nhau. Chúng sẽ phát ra sóng vô tuyến điện ở một tần số nhất định để phát hiện thiết bị phát xung quanh đó. Nó được sử dụng phổ b",
+        "chars": 500
+      },
+      {
+        "id": "272069d7-8807-42ba-ad80-23771653ad18",
+        "text": "iến trong các ứng dụng liên quan đến nhận dạng và theo dõi. Không giống như động cơ thông thường cứ cắm điện vào là quay liên tục, servo chỉ quay khi được điều khiển (bằng xung PPM) với góc quay nằm trong khoảng bất kì từ 0o - 180o. Mỗi loại servo có kích thước, khối lượng và cấu tạo khác nhau. Có loại thì nặng chỉ 9g (chủ yếu dùng trên máy bay mô mình), có loại thì sở hữu một momen lực bá đạo (vài chục Newtonm), hoặc có loại thì khỏe và nhông sắc chắc chắn,... Động cơ servo được thiết kế những",
+        "chars": 500
+      },
+      {
+        "id": "17022eb8-b2d6-40c9-a406-53c8e86e5b9d",
+        "text": "hệ thống hồi tiếp vòng kín. Tín hiệu ra của động cơ được nối với một mạch điều khiển. trí sẽ được hồi tiếp về mạch điều khiển này. Nếu có bầt kỳ lý do nào ngăn cản chuyển động quay của động cơ, cơ cấu hồi tiếp sẽ nhận thấy tín hiệu ra chưa đạt được vị trí mong muốn. Mạch điều khiển tiếp tục chỉnh sai lệch cho động cơ đạt được điểm chính xác. Trong thực tế, bản thân động cơ servo không phải được điều khiển bằng vô tuyến, nó chỉ nối với máy thu vô tuyến trên máy bay hay xe hơi. Động cơ servo nhận",
+        "chars": 500
+      },
+      {
+        "id": "f1e03ea2-bbbf-4d09-9bb0-e709f89cdaff",
+        "text": "tín hiệu từ máy thu này. Hình 13 PINOUT Servo 1.5 Relay Relay là một công tắc điện từ hoạt động nhờ vào một dòng điện nhỏ, có khả năng bật hoặc tắt một dòng điện lớn hơn nhiều lần. Trái tim của relay là cuộn dây điện (hay còn gọi là nam châm điện) khi có dòng điện chạy qua, cuộn dây sẽ tạo ra một từ trường, khiến nó trở thành một nam châm tạm thời. Từ đó, relay có thể đóng mở các tiếp điểm điện, giúp điều khiển dòng điện lớn hơn. (Relay la gi, 2024) Hình 14 Relay Cấu tạo Relay bao gồm 3 phần chí",
+        "chars": 500
+      },
+      {
+        "id": "4b3ff4b5-ff13-4a3e-bbe3-81baa682002e",
+        "text": "nh, mỗi phần đảm nhiệm một chức năng riêng: Khối tiếp nhận (cơ cấu tiếp nhận): Nhận tín hiệu đầu vào và chuyển đổi nó thành tín hiệu thích hợp để truyền đến khối trung gian. Khối trung gian (cơ cấu trung gian): Tiếp nhận tín hiệu từ khối tiếp nhận và chuyển đổi nó thành tín hiệu điều khiển cho relay. Khối chấp hành (cơ cấu chấp hành): Thực hiện tác động vào mạch điều khiển, giúp relay đóng hoặc mở các tiếp điểm điện. Thông số kỹ thuật: Thực chất, đây chính là giao thức HTTP nhưng tích hợp thêm C",
+        "chars": 500
+      },
+      {
+        "id": "b7ac8036-3891-4d9d-96de-0c4b207f2eab",
+        "text": "hứng chỉ bảo mật SSL nhằm mã hóa các thông điệp giao tiếp để tăng tính bảo mật. (Tìm hiểu về truyền thông UART: khái niệm, nguyên lý và ứng dụng, 2024) Hình 17 UART Nguyên lý hoạt động: Uart truyền dữ liệu nối tiếp, theo 1 trong 3 chế độ: Trong đó 1 thiết bị được thiết lập để tiến hành giao tiếp với chỉ duy nhất 1 thiết bị khác. Dữ liệu truyền đến và đi từ Uart song song với thiết bị điều khiển. Khi tín hiệu gửi trên chân Tx (truyền), bộ giao tiếp Uart đầu tiên sẽ dịch thông tin song 21 song này",
+        "chars": 500
+      },
+      {
+        "id": "1521b4a8-8a84-4456-88cd-6c609f9b5d95",
+        "text": "thành dạng nối tiếp và sau đó truyền tới thiết bị nhận. Chân Rx (nhận) của Uart thứ 2 sẽ biến đổi nó trở lại thành dạng song song để giao tiếp với các thiết bị điều khiển. CHƯƠNG 2: TRIỂN KHAI VÀ THỬ NGHIỆM 2.1. Triển Khai Và Thiết Kế Hệ thống được chia làm 3 phần: Phần đỗ xe thông minh. Phần cổng ra vào dành cho việc giám sát vàora và an ninh Báo cháy A) Bãi đỗ xe thông minh đánh dấu chỗ đỗ Sơ đồ bản mạch Hình 18 Sơ đồ bản mạch phần hệ thống giám sát chỗ đỗ Hệ thống bãi đỗ xe thông minh được t",
+        "chars": 500
+      },
+      {
+        "id": "75b271d6-bea1-427b-8c9f-2a18d7630c5d",
+        "text": "hiết kế nhằm giám sát và hiển thị trạng thái chỗ đỗ xe theo thời gian thực bằng cách sử dụng cảm biến hồng ngoại (IR) và màn hình LCD. Tại mỗi vị trí đỗ xe, một cảm biến IR được gắn để phát hiện sự hiện diện của xe. Khi không có xe, cảm biến IR không bị vật cản nên tín hiệu trả về mức HIGH. Ngược lại, khi có xe đậu tại vị trí đó, cảm biến phát hiện vật cản, tín hiệu trả về mức LOW. Arduino sẽ đọc tín hiệu từ từng cảm biến và lưu trạng thái của từng chỗ vào các biến tương ứng. Sau đó, hệ thống tí",
+        "chars": 500
+      },
+      {
+        "id": "9fd4ceff-1804-4670-98c3-cbc10bdb0a87",
+        "text": "nh tổng số chỗ đang có xe đậu để suy ra số chỗ còn trống. Tất cả thông tin về số chỗ trống và trạng thái từng chỗ (FullEmpty) sẽ được hiển thị trực quan trên màn hình LCD 23 Nếu còn chỗ trống, màn hình hiển thị số lượng chỗ trống, ngược lại, nếu tất cả chỗ đều có xe, hệ thống sẽ hiển thị thông báo FULL SLOT. Quá trình kiểm tra và cập nhật trạng thái được thực hiện liên tục, giúp người dùng dễ dàng quan sát tình trạng bãi đỗ xe một cách thuận tiện và chính xác. B) Phần cổng ra vào dành cho việc g",
+        "chars": 500
+      },
+      {
+        "id": "6fc0aba8-2874-40fb-9368-b45bf22d5962",
+        "text": "iám sát vàora và an ninh a, Sơ đồ bản mạch và nguyên lý hoạt động Hình 19 Sơ đồ bản mạch hệ thống giám sát vào ra. Khi hệ thống khởi động, ESP32 tiến hành kết nối vào mạng WiFi được cấu hình sẵn. Trong quá trình vận hành, hệ thống luôn ở trạng thái mặc định là chế độ vào. Người dùng có thể nhấn nút bấm gắn trên hệ thống để chuyển sang chế độ ra, khi đó đèn LED báo hiệu sẽ sáng để cho biết đang ở chế độ ra. Nếu UID trùng khớp, ESP32 sẽ tiến hành ghi lại thông tin quét thẻ (bao gồm UID, tên người",
+        "chars": 500
+      },
+      {
+        "id": "e3e5f415-a330-4586-80a6-cacb63872bc3",
+        "text": "dùng, trạng thái vàora) lên Google Sheets thông qua HTTP request. Tùy thuộc vào chế độ hiện tại, hệ thống sẽ điều khiển servo tương ứng. Nếu ở chế độ vào, ESP32 sẽ kích hoạt servo cổng vào, quay servo đến góc mở (90 độ), giữ trong 3 giây để xe hoặc người qua, sau đó quay servo trở lại vị trí đóng (0 độ). Ngược lại, nếu đang ở chế độ ra, ESP32 sẽ kích hoạt servo cổng ra với thao tác tương tự, đồng thời sau khi quét thẻ ra thành công, hệ thống sẽ tự động chuyển lại về chế độ vào. Ngoài ra, để tăng",
+        "chars": 500
+      },
+      {
+        "id": "89f6f1d6-9c40-4ea2-993a-5e72323c82e5",
+        "text": "tính trực quan và cảnh báo, hệ thống sử dụng một buzzer phát ra âm thanh bíp mỗi khi thẻ được quét hợp lệ. Nếu người dùng quét một thẻ không nằm trong danh sách UID hợp lệ, buzzer sẽ phát 3 tiếng bíp dài và cổng sẽ không mở. Hệ thống đảm bảo an toàn, dễ sử dụng và đồng bộ dữ liệu ra vào thời gian thực lên Google Sheets, hỗ trợ theo dõi từ xa. Ứng dụng dựa trên Google Sheet bao gồm 2 phần tương ứng với 2 sheet: - Danh sách thông tin vàora, bao gồm: o Mã thẻ được sử dụng để vào ra. o Hành động củ",
+        "chars": 500
+      },
+      {
+        "id": "920e47d7-6f97-448b-a9d9-67e4f3433ab6",
+        "text": "a người dùng: Họ vào hay ra. Hình 20 Danh sách thông tin vàora - Danh sách người dùng: Đây là cơ sở dữ liệu lưu trữ các người dùng có quyền được sử dụng hệ thống bãi đỗ xe, bao gồm: Hình 21 Danh sách người dùng C) Hệ thống báo cháy a, Sơ đồ bản mạch 27 Hình 22 Sơ đồ bản mạch hệ thống báo cháy. - Cảm biến lửa IR c, Nguyên lý hoạt động: Khi có khói: Đèn RGB nháy, quạt thông khí chạy, buzzer kêu. Khi có lửa: Motor chạy và phun nước. Hai cổng vào ra mở để cho thoát hiểm . Ngoài ra có quạt chạy làm m",
+        "chars": 500
+      },
+      {
+        "id": "678d9687-dd40-4e2d-aef4-b940c2094f53",
+        "text": "át cho toàn bộ hệ thống. Điểm quan trọng là hệ thống có tương tác với hệ thống vào ra. (qua việc ESP32 của hệ thống này giao tiếp UART với ESP32 của hệ thống vào ra để thực 28 hiện chức năng mở cổng) Hình 23 Sơ đồ giao tiếp UART giữa 2 hệ thống 2.2. Thử nghiệm Test 1: Kiểm thử phần hiển thị trạng thái chỗ đỗ: Lý thuyết: Khi không có xe nào ở bãi đỗ xe thì màn hình LCD sẽ hiển thị là tất cả đều ở trạng thái empty. Khi có xe vào vị trí slot 1 thì ở trên màn hình LCS1 trạng thái S1 sẽ chuyển từ S1:",
+        "chars": 500
+      },
+      {
+        "id": "29679ae7-a86a-42b4-a11e-8d1679bf36fe",
+        "text": "Empty sang S1:Full, tương tự với các slot còn lại. Trạng thái ban đầu không có xe nào: Hình 24 Test 1: Chưa có ai đỗ Khi có xe vào chỗ slot 1 thì màn hình cập nhật tương ứng thành công : Hình 25 Test 1: có 1 chỗ đã có người đỗ Tất cả chỗ còn lại hoạt động tốt khi có xe và màn hình hiển thị thành công trạng thái: Hình 26 Test 1: Tất cả chỗ đỗ đã có xe đỗ Test 2: Thử nghiệm hệ thống ra vào: Lý thuyết: Khi quét thẻ hợp lệ thì thông tin sẽ được cập nhật trên google sheet. Còn không thì sẽ không cập",
+        "chars": 500
+      },
+      {
+        "id": "ce9c62c5-f893-4f81-8684-d41a80771a22",
+        "text": "nhật: Ở cổng ra có kết quả tương tự: Khi thẻ không hợp lệ thì hệ thống báo lỗi: Test 3: Thử nghiệm báo cháy: Khi có lửa, motor đã chạy và phun nước, buzzer kêu cảnh báo, hai cổng đã mở thành công tạo lối thoát hiểm. CHƯƠNG 3: ĐÁNH GIÁ VÀ TỔNG KẾT 3.1 ƯU VÀ NHƯỢC ĐIỂM. Dự án đã thành công trong việc triển khai một hệ thống bãi đỗ xe thông minh quy mô nhỏ, giúp cải thiện đáng kể hiệu quả quản lý và tối ưu hóa không gian đỗ xe. Hệ thống cho phép giám sát và quản lý bãi đỗ xe một cách tự động thông",
+        "chars": 500
+      },
+      {
+        "id": "ca4072a9-7ffb-4c35-a919-ea834931b896",
+        "text": "qua các cảm biến phát hiện vị trí trống. Kết quả thử nghiệm cho thấy hệ thống hoạt động ổn định,cập nhật trạng thái chỗ đỗ xe theo thời gian thực. Bên cạnh những thành công đạt được, dự án cũng ghi nhận một số hạn chế như độ chính xác của hệ thống có thể bị ảnh hưởng bởi điều kiện ánh sáng hoặc thời tiết. Ngoài ra, khả năng mở rộng hệ thống để áp dụng cho các bãi đỗ xe lớn hơn vẫn cần được nghiên cứu thêm. Hệ thống giúp giảm thiểu nhân lực cần thiết để quản lý một bãi đỗ xe. Tuy nhiên hệ thống",
+        "chars": 500
+      },
+      {
+        "id": "c13fac97-62a5-4851-bb34-96849703c89d",
+        "text": "chỉ có thể triển khai ở quy mô nhỏ. Lý do là với số lượng chỗ đỗ càng lớn thì số cảm biến cần càng lớn hơn nhiều, khiến cho việc triển khai dự án ở quy mô lớn là không khả thi. 3.2: QUY TẮC ĐẠO ĐỨC NGHỀ NGHIỆP VÀ TRÁCH NHIỆM ĐẠO ĐỨC - Bảo vệ quyền riêng tư và dữ liệu cá nhân + Bảo mật thông tin: Khi ứng dụng công nghệ IoT, AI, camera giám sát, hệ thống phải bảo vệ dữ liệu cá nhân, thông tin phương tiện, lịch sử ra vào không để lộ, rò rỉ hoặc sử dụng sai mục đích. + Giới hạn thu thập dữ liệu: Chỉ",
+        "chars": 500
+      },
+      {
+        "id": "35cfb2c4-09c8-4f92-963d-01de1b26cc11",
+        "text": "thu thập những dữ liệu thực sự cần thiết cho mục đích quản lý, không xâm phạm quá mức quyền riêng tư của người dùng. + Công khai chính sách sử dụng dữ liệu: Minh bạch về cách thức thu thập, lưu trữ, sử dụng và chia sẻ dữ liệu, có cơ chế cho người dùng phản hồi và khiếu nại. - Đảm bảo tính minh bạch, trách nhiệm và giám sát xã hội + Trách nhiệm giải trình: Đơn vị thiết kế, vận hành phải chịu trách nhiệm trước pháp luật và xã hội về mọi hoạt động của bãi đỗ xe, sẵn sàng giải trình khi có sự cố, k",
+        "chars": 500
+      },
+      {
+        "id": "2b1c6ffe-7d7c-4cc4-93a6-8fb6753df1e6",
+        "text": "hiếu nại. + Giám sát độc lập: Khuyến khích có sự tham gia giám sát của bên thứ ba, cơ quan quản lý hoặc cộng đồng để đảm bảo hệ thống được vận hành đúng chuẩn mực đạo đức và pháp lý. + Tham vấn cộng đồng: Lắng nghe ý kiến người dùng, cộng đồng để điều chỉnh thiết kế, vận hành phù hợp với nhu cầu và giá trị xã hội. - Giảm thiểu tác động tiêu cực tới xã hội và môi trường + Tối ưu hóa nguồn lực, giảm phát thải: Thiết kế thông minh giúp giảm ùn tắc, tiết kiệm thời gian, nhiên liệu, góp phần bảo vệ m",
+        "chars": 500
+      },
+      {
+        "id": "b4d01090-8390-4bda-aecc-210d0b0db7cf",
+        "text": "ôi trường, giảm ô nhiễm không khí và tiếng ồn. + Đảm bảo tiếp cận công bằng: Hệ thống phải tạo điều kiện thuận lợi cho mọi đối tượng, kể cả người khuyết tật, người già, đảm bảo tiếp cận công bằng tới dịch vụ công cộng 3.3. KẾT LUẬN VÀ ĐỀ XUẤT Kết luận Dự án đã thành công trong việc triển khai một hệ thống bãi đỗ xe thông minh quy mô nhỏ, mang lại hiệu quả rõ rệt trong việc tối ưu hóa không gian đỗ xe và nâng cao hiệu quả quản lý. Hệ thống cho phép giám sát, cập nhật trạng thái chỗ đỗ xe theo thờ",
+        "chars": 500
+      },
+      {
+        "id": "783bcc8b-9701-489e-b586-463d311a9afc",
+        "text": "i gian thực nhờ các cảm biến phát hiện vị trí trống, đồng thời giúp giảm thiểu nhân lực cần thiết cho công tác quản lý. Tuy nhiên, qua quá trình vận hành thử nghiệm, dự án cũng ghi nhận một số hạn chế, đặc biệt là độ chính 38 xác của hệ thống có thể bị ảnh hưởng bởi điều kiện ánh sáng hoặc thời tiết. Ngoài ra, việc mở rộng quy mô hệ thống cho các bãi đỗ xe lớn gặp khó khăn do số lượng cảm biến cần thiết tăng lên đáng kể, làm tăng chi phí và phức tạp hóa việc triển khai. Đề xuất Để khắc phục nhữn",
+        "chars": 500
+      },
+      {
+        "id": "7a6b509d-5fb4-460d-832a-fef6c87fe7b7",
+        "text": "g hạn chế nêu trên và nâng cao khả năng mở rộng của hệ thống, dự án đề xuất chuyển sang sử dụng công nghệ ETC (Electronic Toll Collection) vốn đã được triển khai rộng rãi tại các làn thu phí tự động. Nhờ đó, việc mở rộng quy mô hệ thống sẽ trở nên dễ dàng, linh hoạt và tiết kiệm chi phí hơn, đồng thời đảm bảo tính ổn định và độ chính xác cao khi áp dụng cho các bãi đỗ xe có quy mô lớn. 3.4 Đánh giá ứng dụng vào thực tế. Hệ thống bãi đỗ xe thông minh quy mô nhỏ đã được triển khai thành công, cho",
+        "chars": 500
+      },
+      {
+        "id": "2534c1c4-e6d7-4fee-b4ed-6b61d5ac360d",
+        "text": "phép tự động giám sát và quản lý các vị trí đỗ xe thông qua cảm biến phát hiện vị trí trống. Trong thực tế, hệ thống này giúp các bãi đỗ xe tại các tòa nhà, trường học, hoặc khu dân cư nhỏ tối ưu hóa không gian sử dụng, giảm thiểu nhân lực quản lý và nâng cao hiệu quả vận hành. Người quản lý có thể theo dõi trạng thái các chỗ đỗ xe theo thời gian thực, nhanh chóng phát hiện chỗ trống hoặc tình trạng quá tải, từ đó điều phối phương tiện hợp lý hơn. Tuy nhiên, khi áp dụng ở quy mô lớn như bãi đỗ x",
+        "chars": 500
+      },
+      {
+        "id": "60488c01-7e33-4eb9-8864-f0e43df6400f",
+        "text": "e tại trung tâm thương mại, sân bay hoặc các khu đô thị lớn, hệ thống hiện tại gặp phải một số thách thức. Việc phải lắp đặt số lượng lớn cảm biến khiến chi phí và công tác bảo trì tăng cao, đồng thời độ chính xác của hệ thống có thể bị ảnh hưởng bởi các yếu tố môi trường như ánh sáng hoặc thời tiết. Để khắc phục những hạn chế này và mở rộng khả năng ứng dụng thực tế, có thể chuyển sang giải pháp sử dụng hệ thống tương tác trực tiếp với ETC (Electronic Toll Collection) công nghệ đã được triển kh",
+        "chars": 500
+      },
+      {
+        "id": "e3d24108-6c6f-4782-9b25-08357138a621",
+        "text": "ai cho các làn thu phí 39 tự động. Khi áp dụng ETC vào bãi đỗ xe, hệ thống sẽ dựa trên một tiêu chuẩn phổ biến, giúp giảm số lượng cảm biến vật lý cần thiết, đồng thời cho phép quản lý và mở rộng quy mô bãi đỗ xe một cách linh hoạt, tiết kiệm chi phí hơn. Với giải pháp này, các bãi đỗ xe lớn có thể dễ dàng tích hợp vào hệ thống quản lý tập trung, đảm bảo cập nhật trạng thái và kiểm soát ra vào một cách tự động, hiệu quả và chính xác hơn. DANH MỤC TÀI LIỆU THAM KHẢO. Được truy lục từ http:dinhhai",
+        "chars": 500
+      },
+      {
+        "id": "feab54e7-d7f8-4806-a8ae-73d3cc701dfa",
+        "text": ".comtin-tuccam-bien-khi-gas-mq2.html Cảm Biến Phát Hiện Lửa. From https:plctech.com.vnrelay-la-gi Tìm hiểu về truyền thông UART: khái niệm, nguyên lý và ứng dụng. From https:bkaii.com.vntin-tuc1099-tim-hieu-ve-truyen-thong-uart-khai- niem-nguyen-ly-va-ung-dung 41",
+        "chars": 263
+      },
+      {
+        "id": "fd230ba2-37b3-432d-ba03-12a70bd4d7d4",
+        "text": "DANH MỤC HÌNH ẢNH Hình 1 Hệ thống hoàn chỉnh ....................................................................... 2 Hình 2 PINOUT ESP32 DEV KIT V1 ....................................................... 7 Hình 3 Arduino Uno ................................................................................... 9 Hình 4 Cảm biến hồng ngoại. ......................................................................... 35 Hình 32 Test 3: Hệ thống gọi báo cháy qua module SIM 4G. Dự án sử dụng loại ESP32",
+        "chars": 500
+      },
+      {
+        "id": "721e732f-41ce-45cd-ae2b-c62cb0723c72",
+        "text": "DEV KIT V1. Hình 2 PINOUT ESP32 DEV KIT V1 7 10 Sơ đồ dây: 1.6 Module Sim 4G A7680C. SIMCOM 4G A7680C là một bo mạch ra chân, cung cấp giải pháp thay thế y hệt chân cho module sim 2G SIM800L mà không cần thiết kế lại phần cứng, thay module SIM 2G thành 4G và lập trình lại phần giao tiếp là có thể dùng (pin to pin). (Module SIMCOM 4G A7680C, 2024) Đặc biệt module đã được tích hợp mạch nguồn hạ áp DC DC chuẩn cung cấp đầy đủ năng lượng và đảm bảo hoạt động ổn định cho module SIM (module SIM 800L k",
+        "chars": 500
+      },
+      {
+        "id": "9d4ae5d1-1d8c-4763-ba01-0f8c44902a32",
+        "text": "hông có). Khe cắm nanoSIM push-pull nhỏ gọn Hình 15 Module SIM 4G 19 PWK: bậttắt module SIM RXD : Chân nhận Uart RX TXD : Chân truyền Uart TX GND: Chân cấp âm nguồn và nối chung mass với vi điều khiển SPKN: ngõ ra âm thanh, nối với loa để phát âm thanh SPKP: ngõ ra âm thanh, nối với loa để phát âm thanh MICP: ngõ vào âm thanh, phải gắn thêm Micro để thu âm thanh MICN: ngõ vào âm thanh, phải gắn thêm Micro để thu âm thanh DTR: Chân UART DTR, thường ít sử dụng RI: Chân UART RING, thường ít sử dụng",
+        "chars": 500
+      },
+      {
+        "id": "44580554-e3ab-4654-8d64-1cdacbce3f94",
+        "text": "Hình 16 PINOUT Module SIM 4G 1.7. 1.7.2 UART UART (Universal Asynchronous Receiver-Transmitter Bộ truyền nhận dữ liệu không đồng bộ) là một giao thức truyền thông phần cứng dùng giao tiếp nối tiếp không đồng bộ và có thể cấu hình được tốc độ. Simplex: Chỉ tiến hành giao tiếp một chiều Half duplex: Dữ liệu sẽ đi theo một hướng tại 1 thời điểm Full duplex: Thực hiện giao tiếp đồng thời đến và đi từ mỗi master và slave Chân Tx (truyền) của một chip sẽ kết nối trực tiếp với chân Rx (nhận) của chip",
+        "chars": 500
+      },
+      {
+        "id": "fac3c0b3-09a8-4143-9908-b9b3247c94c7",
+        "text": "khác và ngược lại. 20x4. - Nút ấn - Buzzer c, Ứng dụng kiểm soát vàora. b, Các phần cứng sử dụng - ESP32 - Buzzer - 2 Relay - Nút ấn. - Module SIM 4G. Buzzer kêu. Led RGB nháy. Cập nhật: Hình 32 Test 3: Hệ thống gọi báo cháy qua module SIM 4G. 3.1.1 Ưu điểm. 3.1.2 Nhược điểm. 3.5 Đề xuất cải tiến: From http:arduino.vnbai-viet181-gioi-thieu-servo-sg90-va-cach-dieu-khien- bang-bien-tro Module SIMCOM 4G A7680C. From https:www.thegioiic.commodule- simcom-4g-a7680c Relay la gi.",
+        "chars": 477
+      },
+      {
+        "id": "9664dbb2-b74f-439e-9ac7-db78ca1d6ffb",
+        "text": "Nguyễn Văn Phong - B21DCVT343 Lưu Doãn Lực - B21DCVT278 Nguyễn Khánh Mười - B21DCVT301 Phan Lê Bảo Phúc - B21DCVT350 Hà Nội, 2025 ............................................. 34 Video 1 Khi cảm biến phát hiện khói, buzzer kêu cảnh báo và quạt chạy thành công. Video 2 Cảnh báo có lửa. ESP32 là một series các vi điều khiển trên một vi mạch giá rẻ, năng lượng thấp có hỗ trợ WiFi và dual-mode Bluetooth (tạm dịch: Bluetooth chế độ kép). Dòng ESP32 sử dụng bộ vi xử lý Tensilica Xtensa LX6 ở cả hai bi",
+        "chars": 500
+      },
+      {
+        "id": "26568abb-a3fc-4036-be2d-47e234e395df",
+        "text": "ến thể lõi kép và lõi đơn, và bao gồm các công tắc antenna tích hợp, RF balun, bộ khuếch đại công suất, bộ khuếch đại thu nhiễu thấp, bộ lọc và module quản lý năng lượng. ESP32 được chế tạo và phát triển bởi Espressif Systems, một công ty Trung Quốc có trụ sở tại Thượng Hải, và được sản xuất bởi TSMC bằng cách sử dụng công nghệ 40 nm. ESP32 là sản phẩm kế thừa từ vi điều khiển ESP8266. ESP32 có rất nhiều loại được bán ra thị trường. Chip điều khiển: ESP32 Số lượng chân: 30 pin Kết nối không dây:",
+        "chars": 500
+      },
+      {
+        "id": "9a5a2880-b134-4ba4-8ff9-0de10d7fa69c",
+        "text": "Wi-Fi (802.11 bgn) và Bluetooth (v4.2) Điện áp hoạt động: 3.3V Bộ nhớ: RAM 520KB, Flash từ 4MB đến 16MB tùy phiên bản GPIO: 34 chân GPIO có thể lập trình ADC: 12-bit ADC với 18 kênh DAC: 2 kênh DAC 8-bit PWM: Hỗ trợ PWM cho điều khiển động cơ và ánh sáng Giao tiếp: SPI, I2C, UART, CAN 1.1.2 Arduino Uno Arduino Uno là một bảng mạch vi điều khiển nguồn mở dựa trên vi điều khiển Microchip ATmega328 được phát triển bởi Arduino.cc. Bảng mạch được trang bị các bộ chân đầu vào đầu ra Digital và Analog",
+        "chars": 500
+      },
+      {
+        "id": "1af6998a-be99-4e57-85e5-f7638564f1a3",
+        "text": "có thể giao tiếp với các bảng mạch mở rộng khác nhau. Chip điều khiển : ATmega328P Điện áp hoạt động: 5V Điện áp đầu vào(khuyên dùng): 7-12V Điện áp đầu vào (giới hạn) : 6-20V Số chân Digital: 14 (of which 6 provide PWM output) Số chân PWM Digital: 6 Số chân Analog: 6 Dòng điện DC trên mỗi chân IO: 20 mA Dòng điện DC trên chân 3.3V: 50 mA Flash Memory: 32 KB (ATmega328P) of which 0.5 KB used by bootloader SRAM: 2 KB (ATmega328P) EEPROM: 1 KB (ATmega328P) 8 Tốc độ thạch anh: 16 MHz LEDBUILTIN: 1",
+        "chars": 500
+      },
+      {
+        "id": "8ed04635-fa7e-4ba2-91dc-15214e32bf89",
+        "text": "3 Chiều dài: 68.6 mm Chiều rộng: 53.4 mm Cân nặng: 25 g Hình 3 Arduino Uno 9 1.2 CÁC LOẠI CẢM BIẾN 1.2.1 Cảm biến hồng ngoại (IR Sensor) Hình 4 Cảm biến hồng ngoại. Cảm biến hồng ngoại (IR Sensor) là thiết bị điện tử sử dụng tia hồng ngoại để phát hiện và đo lường các đối tượng hoặc điều kiện môi trường. Khi đấy điện trở R1, R2, R4 sẽ được sử dụng để đảm bảo dòng điện tối thiểu mA đi qua các thiết bị LED IR như Photodiode, đèn Led thông thường. 1.2.2 Cảm biến khói (cảm biến khí gas) MQ2 MQ2 là m",
+        "chars": 500
+      },
+      {
+        "id": "eb5e7489-e187-463c-8f4a-98f773b23319",
+        "text": "ột loại cảm biến khí gas, được sản xuất từ chất bán dẫn SnO2. (Cảm biến khí gas mq2 là gì Mọi thông tin cần biết, 2024) 11 Hình 5 MQ2 Trong môi trường không khí sạch, cảm biến MQ2 xuất ra mức điện áp thấp. MQ2 thể hiện hiệu suất cao trong việc phát hiện khí hóa lỏng như LPG, H2 và các chất khí gây cháy khác. Cảm biến khí gas MQ-2 là cảm biến khí có độ nhạy cao với LPG, Propane và Hydrogen, mê-tan (CH4) và hơi dễ bắt lửa khác, với chi phí thấp và phù hợp cho các ứng dụng khác nhau. Cảm biến xuất",
+        "chars": 500
+      },
+      {
+        "id": "9e376ec2-8663-47fb-bdfb-b035f62f0a80",
+        "text": "ra cả hai dạng tín hiệu là Analog và Digital, tín hiệu Digital có thể điều chỉnh mức báo bằng biến trở. THÔNG SỐ KỸ THUẬT Nguồn hoạt động: 5V Loại dữ liệu: Analog Phạm vi phát hiện rộng Tốc độ phản hồi nhanh và độ nhạy cao Mạch đơn giản Ổn định khi sử dụng trong thời gian dài 12 Hình 6 PINOUT MQ2 1.2.3: Cảm biến lửa (Flame Sensor) Cảm biến lửa là thiết bị cảm biến được sử dụng để phát hiện sự hiện diện của ngọn lửa và các yếu tố liên quan đến sự cháy nổ như nhiệt độ cao, tia hồng ngoại, tia cực",
+        "chars": 500
+      },
+      {
+        "id": "f24199dd-6b68-4d41-b9e3-b0865bf4eff6",
+        "text": "tím, v.v. Flame Sensor có hai ngõ ra tín hiệu là Digital và Analog rất dễ dử dụng. Hình 7 Cảm biến lửa 13 THÔNG SỐ CẢM BIẾN PHÁT HIỆN LỬA (Cảm Biến Phát Hiện Lửa, 2024) Nguồn cấp: 3.3V 5VDC Dòng tiêu thụ: 15mA Tín hiệu ra: Digital 3.3 5VDC tùy nguồn cấp hoặc Analog. Đối với thẻ 32bit có thể chứa tới 4 tỷ mã số. Nguồn: 3.3VDC, 13 - 26mA Dòng ở chế độ chờ: 1013mA Dòng ở chế độ nghỉ: 80uA 15 Tần số sóng: 13.56MHz Khoảng cách hoạt động: 060mmmifare1 card Giao tiếp: SPI Tốc độ truyền dữ liệu: tối đa",
+        "chars": 500
+      },
+      {
+        "id": "16714f06-ee7e-41b5-afc6-5511133bcf50",
+        "text": "10Mbits Các loại card RFID hỗ trợ: mifare1 S50, mifare1 S70, mifare UltraLight, mifare Pro, mifare Desfire Kích thước: 40mm × 60mm Hình 11 PINOUT RFID 1.4 Servo SG90 Servo là một dạng động cơ điện đặc biệt. Khi động cơ quay, vận tốc và vị 16 Các động cơ servo điều khiển bằng liên lạc vô tuyến được gọi là động cơ servo RC (radio-controlled). Hình 12 Servo THÔNG SỐ KỸ THUẬT (Giới thiệu Servo SG90 và cách điều khiển bằng biến trở, 2024) Điện áp hoạt động: 4.8-5VDC Tốc độ: 0.12 sec 60 deg (4.8VDC) L",
+        "chars": 500
+      },
+      {
+        "id": "bfbf244a-5209-4fde-88c2-87ffcf923474",
+        "text": "ực kéo: 1.6 Kg.cm Kích thước: 21x12x22mm Trọng lượng: 9g. Đỏ: Dương nguồn Nâu: Âm nguồn Cam: Tín hiệu 17 Băng tần LTE-CATI 10Mbps LTE-TDD: B34B38B39B40B41 LTE-FDD: B1B3B5B8 Giao thức mạng TCPUDPMQTTHTTP Baudrate mặc định 115200 Kích thước : 23mm x 25mm ( Thứ tự chân kích thước pin-to-pin với module 2G SIM800L) Điện áp làm việc: 4-18VDC. Nếu cấp nguồn trực tiếp từ pin 3V7 thì cần hàn nối jump VBAT trên mạch. Sơ đồ chân ANT: Chân nối antenna VIN: cấp nguồn DC (4-18V) cho mạch, nên mắc thêm 1 tụ đi",
+        "chars": 500
+      },
+      {
+        "id": "36c2b4fd-6df5-4f4a-96b6-3908b0b7f8eb",
+        "text": "ện 100uF càng gần chân VIN càng tốt. CÁC GIAO THỨC CHÍNH SỬ DỤNG 1.7.1 HTTPHTTPS Giao thức HTTP (Hyper Text Transfer Protocol) là giao thức truyền tải siêu văn bản. Đây là giao thức tiêu chuẩn cho World Wide Web (www) để truyền tải dữ liệu dưới dạng văn bản, âm thanh, hình ảnh, video từ Web Server tới trình 20 duyệt web của người dùng và ngược lại. (Giao thức HTTP và HTTPS là gì Tại sao nên sử dụng HTTPS, 2023) Giao thức HTTPS (Hyper Text Transfer Protocol Secure) là giao thức truyền tải siêu vă",
+        "chars": 500
+      },
+      {
+        "id": "ab70ce71-c8d7-4b85-b576-6f40e2187b2d",
+        "text": "n bản an toàn. Có thể hiểu, HTTPS là phiên bản HTTP an toàn, bảo mật hơn. Giao thức HTTP và HTTPS đóng vai trò then chốt trong việc trao đổi dữ liệu giữa vi điều khiển ESP32 (trong hệ thống quản lý và Google Sheet). Quá trình truyền dữ liệu thường sẽ diễn ra ở 3.3V hoặc 5V. Uart là một giao thức giao tiếp giữa một master và một slave. Dữ liệu truyền qua Uart sẽ đóng thành các gói (packet). Mỗi gói dữ liệu chứa 1 bit bắt đầu, 5 9 bit dữ liệu (tùy thuộc vào bộ Uart), 1 bit chẵn lẻ tùy chọn và 1 bi",
+        "chars": 500
+      },
+      {
+        "id": "bd00d8ae-e8a3-4f44-a3f0-609affc62b9f",
+        "text": "t hoặc 2 bit dừng. ESP32 sẽ so sánh mã UID này với danh sách UID hợp lệ đã tải về trước đó từ Google Sheets. b, Các phần cứng sử dụng - ESP32 - Servo quay mởđóng cổng vào ra. o Thời gian vào ra ở dưới dạng 2 cột là Ngày và Giờ. o Họ và tên của người dùng vào ra. o Số thứ tự. o Mã thẻ. o Họ và tên. - Cảm biến khói MQ2. Module Sim 4G sẽ gọi đến số điện thoại đã chỉ định sẵn trong code để cảnh báo bãi đỗ xe có cháy. Thực nghiệm: Thực nghiệm: Khi quét thẻ hợp lệ ở cổng vào: Khi cảm biến phát hiện kh",
+        "chars": 500
+      },
+      {
+        "id": "9a12d81f-c337-4920-b096-2c14191f6ed0",
+        "text": "ói, buzzer kêu cảnh báo và quạt chạy thành công. Video 1 Khi cảm biến phát hiện khói, buzzer kêu cảnh báo và quạt chạy thành công. Một cuộc gói đã được gửi đến số điện thoại theo code cảnh bạo cháy. Video 2 Cảnh báo có lửa. Cảm biến khí gas mq2 là gì Mọi thông tin cần biết. From https:nshopvn.comproductcam-bien- phat-hien-lua-flame-sensor Giao thức HTTP và HTTPS là gì Tại sao nên sử dụng HTTPS (2023). From https:cystack.netvibloghttp-va-https-la-gi Giới thiệu Servo SG90 và cách điều khiển bằng b",
+        "chars": 500
+      },
+      {
+        "id": "d718fea7-5088-4556-b7af-1a8dc41b4bed",
+        "text": "iến trở.",
+        "chars": 8
+      },
+      {
+        "id": "80dd1561-fc51-46c2-9b4e-8f0a53172019",
+        "text": "Lời mở đầu .................................................................................................. 1 Danh mục hình ảnh ..................................................................................... 5 CHƯƠNG I: CƠ SỞ LÝ THUYẾT ........................................................... 7 1.1 Vi điều khiển ................................................................................... 7 1.1.1 ESP32: .............................................................................",
+        "chars": 500
+      },
+      {
+        "id": "a0ad0f3c-70fe-412f-af8d-797500b7d548",
+        "text": ".......... 7 1.1.2 Arduino Uno .............................................................................. 8 1.2 Các loại cảm biến .......................................................................... 10 1.2.1 Cảm biến hồng ngoại (IR Sensor) ........................................... 10 1.2.2 Cảm biến khói (cảm biến khí gas) MQ2 ................................. 11 1.2.3: Cảm biến lửa (Flame Sensor) ................................................. 13 1.3 Công nghệ RFID (Radio Frequency",
+        "chars": 500
+      },
+      {
+        "id": "ff704c89-1242-4fab-bb78-9404911e02fa",
+        "text": "Identification) ................... 14 1.4 Servo SG90 ................................................................................. 16 1.5 Relay ........................................................................................... 18 1.6 Module Sim 4G A7680C. ........................................................... 19 1.7. Các giao thức chính sử dụng ...................................................... 20 1.7.1 HTTPHTTPS ...........................................................",
+        "chars": 500
+      },
+      {
+        "id": "7c16c552-c4a0-493f-800a-04f6aef2eb58",
+        "text": "............... 20 1.7.2 UART ...................................................................................... 21 CHƯƠNG 2: TRIỂN KHAI VÀ THỬ NGHIỆM .................................... 23 2.1. Thử nghiệm ................................................................................ 29 CHƯƠNG 3: ĐÁNH GIÁ VÀ TỔNG KẾT ............................................ 37 3.1 Ưu và nhược điểm. ........................................................................ 37 3.1.1 Ưu điểm. .............",
+        "chars": 500
+      },
+      {
+        "id": "dc9be721-1a9c-4289-ba15-fa489e3739a0",
+        "text": "..................................................................... 37 3.1.2 Nhược điểm. ............................................................................ 37 3.2: Quy tắc đạo đức nghề nghiệp và trách nhiệm đạo đức ........... 37 - Bảo vệ quyền riêng tư và dữ liệu cá nhân ...................................... 37 3 - Đảm bảo tính minh bạch, trách nhiệm và giám sát xã hội ............ 38 - Giảm thiểu tác động tiêu cực tới xã hội và môi trường ................. 38 3.3. Kết luận và đề x",
+        "chars": 500
+      },
+      {
+        "id": "86ce03b8-3d81-4fa6-9fa4-3fcb4e9a6ff4",
+        "text": "uất ...................................................................... 38 Kết luận ............................................................................................. 38 Đề xuất .............................................................................................. 39 3.4 Đánh giá ứng dụng vào thực tế. .................................................. 39 3.5 Đề xuất cải tiến: .......................................................................... 39 DANH MỤC TÀI LIỆU THA",
+        "chars": 500
+      },
+      {
+        "id": "b28886d8-2bb3-4947-b89d-ebc4ac3c612d",
+        "text": "M KHẢO. ......................................... 41 4 ................................................................... 10 Hình 5 MQ2 .............................................................................................. 12 Hình 6 PINOUT MQ2 .............................................................................. 13 Hình 7 Cảm biến lửa ................................................................................. 13 Hình 8 PINOUT Cảm biến lửa .................................",
+        "chars": 500
+      },
+      {
+        "id": "6e8daae9-e09e-4b8a-b37d-b9cdf12b5bd8",
+        "text": "................................ 14 Hình 9 Công nghệ RFID ........................................................................... 14 Hình 10 Module RFID .............................................................................. 15 Hình 11 PINOUT RFID ........................................................................... 16 Hình 12 Servo ........................................................................................... 17 Hình 13 PINOUT Servo ................................",
+        "chars": 500
+      },
+      {
+        "id": "5f2db95a-a008-4235-b046-92e7f77cc035",
+        "text": "........................................... 18 Hình 14 Relay ........................................................................................... 18 Hình 15 Module SIM 4G .......................................................................... 19 Hình 16 PINOUT Module SIM 4G .......................................................... 20 Hình 17 UART ......................................................................................... 21 Hình 18 Sơ đồ bản mạch phần hệ thống giám sát c",
+        "chars": 500
+      },
+      {
+        "id": "ce59ffbf-ab9e-43c3-add0-ed8700c69c83",
+        "text": "hỗ đỗ ........................ 23 Hình 19 Sơ đồ bản mạch hệ thống giám sát vào ra. ........................................... 28 Hình 23 Sơ đồ giao tiếp UART giữa 2 hệ thống ...................................... 29 Hình 24 Test 1: Chưa có ai đỗ .................................................................. 30 Hình 25 Test 1: có 1 chỗ đã có người đỗ .................................................. 31 Hình 26 Test 1: Tất cả chỗ đỗ đã có xe đỗ ...............................................",
+        "chars": 500
+      },
+      {
+        "id": "6d15e5e1-3ff1-4282-b632-13e2b0f0567c",
+        "text": "32 Hình 27 Test 2: Khi quét thẻ hợp lệ lúc vào, output lên serial. .......................................................................................................... 34 5 ................ 36 6",
+        "chars": 201
+      },
+      {
+        "id": "034c7d89-9bab-46f3-87d1-e20a532983ef",
+        "text": "(2024, 3 20). (2024). (2024). (2024). (2024). (2024).",
+        "chars": 53
+      },
+      {
+        "id": "109844dd-3d49-4a73-b453-fbe653675b80",
+        "text": "Đồng thời, công nghệ RFID sẽ được triển khai để thu thập thông tin về các phương tiện ra vào bãi đỗ, phục vụ cho mục đích kiểm soát và quản lý. Khoảng cách: 80cm Góc quét: 60 độ Kích thước: 3.2 x 1.4 cm Hình 8 PINOUT Cảm biến lửa 1.3 Công nghệ RFID (Radio Frequency Identification) RFID là chữ viết tắt của từ Radio Frequency Identification. Thiết bị RFID được cấu tạo từ 2 thành phần chính là: thiết bị phát mã đã được gắn chip và thiết bị để đọc. Thiết bị RFID khác nhau sẽ có mã số khác nhau và kh",
+        "chars": 500
+      },
+      {
+        "id": "3095fb3d-cf40-41ff-8321-a432b4a3cffc",
+        "text": "ông bị trùng lặp. Hình 9 Công nghệ RFID Nguyên lý hoạt động của RFID 14 Công nghệ RFID hoạt động theo nguyên lý khá đơn giản, đó là: Thiết bị RFID đọc được đặt cố định ở một vị trí. Khi RFID phát đi vào vùng sóng vô tuyến điện mà RFID đọc phát ra, hai bên sẽ cảm nhận được nhau. RFID phát sẽ nhận sóng điện tử, thu nhận và phát lại cho RFID đọc về mã số của mình. Nhờ vậy mà RFID đọc biết được thiết bị RFID phát nào đang nằm trong vùng hoạt động. Bên trong thẻ chip của công nghệ RFID chứa các mã nh",
+        "chars": 500
+      },
+      {
+        "id": "c16bb868-e293-4241-8a1c-75855bcd6ab2",
+        "text": "ận dạng. Khi sản xuất, mỗi một thẻ chip RFID sẽ được gắn 1 mã số hoàn toàn khác nhau. Điều này sẽ giúp cho RFID đọc nhận dạng chính xác mà không bị nhầm lẫn. Chính nhờ điều này giúp cho các thiết bị đã được gắn RFID mang lại độ an toàn, tính bảo mật cao. Dự án sử dụng Module RFID RC522. Module RFID RC522 là một module sử dụng công nghệ RFID để đọc và ghi thông tin từ các thẻ RFID. Module bao gồm một chip đọc RFID MFRC522 và các thành phần khác như anten và các linh kiện điện tử. Chip MFRC522 có",
+        "chars": 500
+      },
+      {
+        "id": "beda7452-4893-435e-8257-22bac1d58f5d",
+        "text": "khả năng đọc và ghi dữ liệu từ các thẻ RFID tiêu chuẩn, bao gồm các loại thẻ MIFARE và các loại thẻ tương thích. Hình 10 Module RFID Thông số kỹ thuật: Hệ thống kiểm soát vào-ra được xây dựng dựa trên nền tảng vi điều khiển ESP32, sử dụng module đọc thẻ RFID MFRC522, hai động cơ servo điều khiển cổng vào và cổng ra, cùng với kết nối WiFi để giao tiếp với Google Sheets. Sau khi kết nối thành công, mỗi lần một thẻ RFID được quét ESP32 gửi yêu cầu đến Google Sheets để kiểm tra RFID đã quét từ thé c",
+        "chars": 500
+      },
+      {
+        "id": "fb46dd28-392a-40c7-b921-9e302fce676f",
+        "text": "ó hợp lệ hay không. Khi người dùng quét thẻ RFID tại cổng, module MFRC522 sẽ đọc mã UID từ thẻ. - RFID cho quẹt thẻ. Việc tích hợp ETC sẽ giúp hệ thống bãi đỗ xe hoạt động dựa trên một tiêu chuẩn phổ biến, giảm sự phụ thuộc vào các cảm biến vật lý và thẻ RFID.",
+        "chars": 260
+      },
+      {
+        "id": "92f0ce41-ba07-4017-b989-81532061a4c2",
+        "text": "................ 32 Hình 28 Test 2: Khi quét thẻ hợp lệ lúc vào, hệ thống lưu thông tin vào ra trên ứng dụng kiểm soát. ..................................................................................... 33 Hình 29 Test 2: Khi quét thẻ hợp lệ lúc ra, output lên serial. .................. 33 Hình 30 Test 2: Khi quét thẻ hợp lệ lúc ra, hệ thống lưu thông tin vào ra trên ứng dụng kiểm soát. ..................................................................................... 33 Hình 31 Test 2: Kh",
+        "chars": 500
+      },
+      {
+        "id": "d101a681-4e65-40e3-85ce-bf423304ba8a",
+        "text": "i quét thẻ không hợp lệ. Hình 27 Test 2: Khi quét thẻ hợp lệ lúc vào, output lên serial. Hình 28 Test 2: Khi quét thẻ hợp lệ lúc vào, hệ thống lưu thông tin vào ra trên ứng dụng kiểm soát. Hình 29 Test 2: Khi quét thẻ hợp lệ lúc ra, output lên serial. Hình 30 Test 2: Khi quét thẻ hợp lệ lúc ra, hệ thống lưu thông tin vào ra trên ứng dụng kiểm soát. Hình 31 Test 2: Khi quét thẻ không hợp lệ.",
+        "chars": 393
+      },
+      {
+        "id": "4cf481fc-259e-4027-8eaf-9fc616bd4971",
+        "text": "18 22 24 25 26 29 30 31 32 33 34 35 36 37 40",
+        "chars": 44
       }
     ]
   }
