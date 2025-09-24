@@ -54,6 +54,7 @@ RAG_v1/
 
 ### Cài đặt dependencies
 
+
 Dự án sử dụng các thư viện Python sau:
 
 **Cài đặt tất cả dependencies:**
@@ -61,9 +62,8 @@ Dự án sử dụng các thư viện Python sau:
 pip install -r requirements.txt
 ```
 
-**Hoặc cài đặt từng package riêng lẻ:**
+**Hoặc cài đặt từng package:**
 ```bash
-# Dùng cách này nếu muốn kiểm soát version cụ thể
 # Xử lý PDF
 pip install pdfplumber>=0.10.0
 
@@ -73,17 +73,39 @@ pip install Pillow>=10.0.0
 pip install opencv-python>=4.8.0
 pip install numpy>=1.24.0
 
-# GUI (thường có sẵn với Python)
-# tkinter đã được cài đặt mặc định với Python
+# Xây dựng và tìm kiếm vector database
+pip install faiss-cpu
+pip install langchain_community
+pip install sentence-transformers
+pip install scikit-learn
+
+# Xử lý ngôn ngữ tự nhiên
+pip install nltk
+
+# Giao diện chọn file
+# tkinter (có sẵn với Python)
+
+# LLM cục bộ (nếu dùng)
+pip install ollama
+
+# Đọc file DOCX
+pip install python-docx
 ```
 
 **Chi tiết các dependencies:**
 - `pdfplumber`: Trích xuất văn bản và metadata từ PDF
 - `pytesseract`: Python wrapper cho Tesseract OCR
 - `Pillow (PIL)`: Xử lý và chỉnh sửa hình ảnh
-- `opencv-python`: Xử lý hình ảnh nâng cao (resize, blur, threshold)
+- `opencv-python`: Xử lý hình ảnh nâng cao
 - `numpy`: Hỗ trợ tính toán array cho xử lý hình ảnh
-- `tkinter`: Tạo giao diện chọn file (có sẵn với Python)
+- `faiss`: Tìm kiếm và lưu trữ vector
+- `langchain_community`: Embedding văn bản
+- `sentence-transformers`: Sinh embedding cho văn bản
+- `scikit-learn`: Clustering văn bản
+- `nltk`: Tách câu, xử lý ngôn ngữ tự nhiên
+- `tkinter`: Tạo giao diện chọn file
+- `ollama`: Gọi LLM cục bộ
+- `python-docx`: Đọc file DOCX
 
 ### Cài đặt Tesseract OCR
 
@@ -104,33 +126,61 @@ brew install tesseract
 
 ## Sử dụng
 
-### 1. Xử lý PDF qua giao diện
-```python
+
+### 1. Xử lý PDF/DOCX qua giao diện chọn file
+Chạy giao diện chọn file để xử lý PDF hoặc DOCX:
+```bash
 python src/openFileDialog.py
 ```
+- Chọn file PDF hoặc DOCX cần xử lý.
+- Kết quả sẽ được lưu vào `Database/dataTest.json`.
 
-### 2. Xử lý PDF trực tiếp
+### 2. Xử lý PDF/DOCX trực tiếp bằng mã nguồn
+Import và sử dụng hàm xử lý PDF/DOCX:
 ```python
-from src.transcript import load_pdf
+from src.transcript import load_pdf, load_docx
 
 # Xử lý một file PDF
 load_pdf("path/to/your/file.pdf")
+
+# Xử lý một file DOCX
+load_docx("path/to/your/file.docx")
 ```
-chạy file transcript.py để tải và transcript file
-### 3. Chia chunk từ dữ liệu đã xử lý
+- Kết quả sẽ được lưu vào file JSON theo cấu hình trong `envGlobal.py`.
+
+### 3. Chia chunk dữ liệu đã xử lý
+Sau khi có file JSON dữ liệu gốc, tiến hành chia chunk:
 ```python
-from src.chunking import process_transcript
+from src.chunking import chunk_by_heading_and_sentence, chunk_by_embedding_clustering
 from src.transcriptToJson import read_json, write_new_json
 
 # Đọc dữ liệu raw
 data = read_json("Database/dataTest.json")
 
-# Chia chunk với cấu hình tùy chỉnh
-chunks = process_transcript(data, max_words=200, overlap=50)
+# Chia chunk theo rule (heading + câu)
+chunks = chunk_by_heading_and_sentence(data, max_chars=800)
+
+# Chia chunk theo semantic (embedding + clustering)
+chunks = chunk_by_embedding_clustering(data, max_chars=500, n_clusters=8)
 
 # Lưu kết quả
 write_new_json(chunks, "Database/dataTest_after_chunk.json")
 ```
+- Có thể tùy chỉnh tham số `max_chars`, `n_clusters` theo nhu cầu.
+
+### 4. Xây dựng và tìm kiếm với FAISS index
+Tạo index cho dữ liệu chunked:
+```bash
+python src/build_index.py
+```
+- Tạo file index FAISS và metadata tại `Database/output/`.
+
+### 5. Truy vấn dữ liệu và hỏi đáp với LLM
+Chạy chatbot terminal để hỏi đáp trên dữ liệu đã index:
+```bash
+python src/chatbot.terminal.py
+```
+- Nhập câu hỏi, hệ thống sẽ trả về kết quả dựa trên dữ liệu đã xử lý và index.
 
 ## Cấu hình
 
@@ -143,9 +193,7 @@ DB_AFTER_CHUNK = "path/to/chunked/data.json"
 ```
 
 ### Tham số chunking
-- `max_words`: Số từ tối đa trong một chunk (mặc định: 200)
-- `overlap`: Số từ overlap giữa các chunk (mặc định: 50)
-- `line_gap`: Khoảng cách dòng để gộp văn bản (mặc định: 15)
+- `max_words`: Số từ tối đa trong một chunk (mặc định: 500 với semantic và 800 với rule)
 
 ## Định dạng dữ liệu
 
@@ -190,7 +238,7 @@ set PATH=%PATH%;C:\Program Files\Tesseract-OCR
 ### 2. Lỗi encoding
 Đảm bảo file JSON được lưu với encoding UTF-8 để hỗ trợ tiếng Việt.
 
-### 3. Memory issues với PDF lớn
+### 3. Memory issues với PDF và DOC lớn
 - Xử lý từng trang một
 - Giảm resolution khi chuyển đổi hình ảnh
 - Tăng bộ nhớ virtual nếu cần
@@ -209,10 +257,10 @@ Dự án này được phân phối dưới MIT License. Xem file `LICENSE` đ�
 
 ## Tác giả
 
-- **Thuoc** - Developer chính
+- **HgNguyen-Nguyễn Đạt** - Developer chính
 
 ## Ghi chú
 
 - Dự án này được tối ưu cho văn bản tiếng Việt
-- Hỗ trợ xử lý PDF có cả text layer và image-based content
+- Hỗ trợ xử lý PDF và DOC/DOCX có cả text layer và image-based content
 - Phù hợp cho việc tạo dataset cho các hệ thống RAG và chatbot
