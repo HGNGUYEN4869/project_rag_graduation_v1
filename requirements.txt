@@ -1,3 +1,4 @@
+
 # PDF Processing
 pdfplumber>=0.10.0
 
@@ -7,13 +8,20 @@ Pillow>=10.0.0
 opencv-python>=4.8.0
 numpy>=1.24.0
 
+# Vector Database & Embedding
+faiss-cpu
+langchain_community
+sentence-transformers
+scikit-learn
+
+# NLP
+nltk
+
 # GUI for file dialog
 tkinter
 
-# Standard libraries (usually included with Python)
-# json
-# re
-# os
-# uuid
-# hashlib
-# typing
+# LLM local (optional)
+ollama
+
+# DOCX support
+python-docx

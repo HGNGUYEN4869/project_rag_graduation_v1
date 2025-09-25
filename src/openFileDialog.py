@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import filedialog
 import os
-from transcript import load_document  # import hàm load_document từ file transcript.py
+from transcript import load_pdf, load_docx  # import hàm load_pdf và load_docx từ file transcript.py
+from chunking import run_chunking
+from enviroment.envGlobal import DB_JSON, DB_AFTER_CHUNK
 
 def open_file_dialog():
     root = tk.Tk()
@@ -28,6 +30,4 @@ def open_file_dialog():
                 print(f"❌ Lỗi khi xử lý {path}: {e}")
     else:
         print("❌ Không có file nào được chọn.")
-
-if __name__ == "__main__":
-    open_file_dialog()
+    run_chunking("semantic", max_chars=500, n_clusters=8, input_path=DB_JSON, output_path=DB_AFTER_CHUNK)

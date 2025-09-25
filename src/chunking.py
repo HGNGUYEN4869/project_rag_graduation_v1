@@ -148,15 +148,21 @@ def process_input(mode: str, max_chars: int, n_clusters: int, input_path: str, o
 
     print(f"✅ Saved {sum(len(b['chunks']) for b in results)} chunks -> {output_path}")
 
+def run_chunking(mode: str, max_chars: int = 800, n_clusters: int = 5,
+                 input_path: str = DB_JSON, output_path: str = DB_AFTER_CHUNK):
+    """
+    Run chunking process with given parameters.
+    """
+    process_input(mode, max_chars, n_clusters, input_path, output_path)
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Chunk text by rule or semantic clustering")
-    parser.add_argument("mode", choices=["rule", "semantic"], help="Chunking mode")
-    parser.add_argument("--max_chars", type=int, default=800, help="Max characters per chunk")
-    parser.add_argument("--n_clusters", type=int, default=5, help="Number of clusters (semantic mode only)")
-    args = parser.parse_args()
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser(description="Chunk text by rule or semantic clustering")
+#     parser.add_argument("mode", choices=["rule", "semantic"], help="Chunking mode")
+#     parser.add_argument("--max_chars", type=int, default=800, help="Max characters per chunk")
+#     parser.add_argument("--n_clusters", type=int, default=5, help="Number of clusters (semantic mode only)")
+#     args = parser.parse_args()
 
-    process_input(args.mode, args.max_chars, args.n_clusters, DB_JSON, DB_AFTER_CHUNK)
+#     run_chunking(args.mode, args.max_chars, args.n_clusters, DB_JSON, DB_AFTER_CHUNK)
 
 
 #Chunk theo heading + câu (rule-based), chunk tối đa 800 ký tự
