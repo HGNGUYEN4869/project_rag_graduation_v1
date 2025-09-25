@@ -1,35 +1,42 @@
+import os
+import re
+import uuid
 import pdfplumber
 import pytesseract
 from PIL import Image
-import uuid
-import numpy as np
 from docx import Document
-from transcriptToJson import write_next_json
+from typing import Dict, Any
 from enviroment.envGlobal import DB_JSON
-from PIL import Image
-import re
-import os
+from transcriptToJson import write_next_json
 
-# def preprocess_image(pil_image):
-#     img = np.array(pil_image.convert("L"))
-#     img = cv2.resize(img, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
-#     img = cv2.GaussianBlur(img, (3, 3), 0)
-#     img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-#     return Image.fromarray(img)
+# =========================
+# Utility
+# =========================
+def clean_text(text: str) -> str:
+    text = re.sub(r"[^0-9A-Za-zÀ-ỹ\s\.,:;()\-\+]", "", text)
+    return re.sub(r"\s+", " ", text).strip()
 
-# def ocr_pytesseract(pil_image):
-#     pil_image = preprocess_image(pil_image)
-#     text = pytesseract.image_to_string(pil_image, lang="vie+eng")
-#     return text.strip()
+def normalize_book_name(file_path: str) -> str:
+    name = os.path.splitext(os.path.basename(file_path))[0]
+    name = re.sub(r"[^0-9A-Za-zÀ-ỹ\s]", "", name)
+    name = re.sub(r"\s+", "_", name)
+    return name.strip("_")
 
+def save_json(data: Dict[str, Any], path: str):
+    import json
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"[+] Saved to {path}")
+
+# =========================
+# PDF Helpers
+# =========================
 def extract_page_elements(page, path, page_num):
     elements = []
-
-    # 1. Text thật (text layer)
     text = page.extract_text(x_tolerance=2, y_tolerance=2)
+
     if text:
         for line in text.split("\n"):
-            # Bỏ dòng "trang X"
             if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE):
                 continue
             bbox = page.chars[0] if page.chars else {"top": 0}
@@ -37,14 +44,9 @@ def extract_page_elements(page, path, page_num):
                 "id": str(uuid.uuid4()),
                 "text": line.strip(),
                 "top": bbox["top"] if "top" in bbox else 0,
-                "metadata": {
-                    "page": page_num,
-                    "source": path,
-                    "type": "text"
-                }
+                "metadata": {"page": page_num, "source": path, "type": "text"}
             })
     else:
-        # 2. OCR fallback nếu không có text layer
         pil_image = page.to_image(resolution=300).original
         ocr_text = pytesseract.image_to_string(pil_image, lang="vie+eng")
         for i, line in enumerate(ocr_text.split("\n")):
@@ -53,110 +55,102 @@ def extract_page_elements(page, path, page_num):
             elements.append({
                 "id": str(uuid.uuid4()),
                 "text": line.strip(),
-                "top": i * 20,  # giả định khoảng cách dòng
-                "metadata": {
-                    "page": page_num,
-                    "source": path,
-                    "type": "ocr_text"
-                }
+                "top": i * 20,
+                "metadata": {"page": page_num, "source": path, "type": "ocr_text"}
             })
 
-    # 3. Sắp xếp theo vị trí top
     elements.sort(key=lambda x: x["top"])
     return elements
 
-def clean_text(text: str) -> str:
-    # Loại ký tự lạ
-    text = re.sub(r"[^0-9A-Za-zÀ-ỹ\s\.,:;()\-\+]", "", text)
-    # Xóa khoảng trắng thừa
-    return re.sub(r"\s+", " ", text).strip()
+def extract_images_from_pdf(page, page_num, out_dir="images"):
+    os.makedirs(out_dir, exist_ok=True)
+    pil_image = page.to_image(resolution=300).original
+    img_path = os.path.join(out_dir, f"pdf_page_{page_num}.png")
+    pil_image.save(img_path)
+    return img_path
 
-def merge_lines(elements, line_gap=15):
-    merged = []
-    buffer = ""
-    prev_top = None
+# =========================
+# DOCX Helpers
+# =========================
+def extract_images_from_docx(doc_path, out_dir="images"):
+    os.makedirs(out_dir, exist_ok=True)
+    doc = Document(doc_path)
+    image_paths = []
 
-    for el in elements:
-        text = clean_text(el["text"])
-        if not text:
-            continue
-        top = el["top"]
+    rels = doc.part._rels
+    for rel in rels:
+        rel = rels[rel]
+        if "image" in rel.target_ref:
+            img_data = rel.target_part.blob
+            img_name = f"docx_img_{len(image_paths)}.png"
+            img_path = os.path.join(out_dir, img_name)
+            with open(img_path, "wb") as f:
+                f.write(img_data)
+            image_paths.append(img_path)
+    return image_paths
 
-        if prev_top is not None and (top - prev_top > line_gap or buffer.endswith(('.', ':', ';'))):
-            merged.append(buffer.strip())
-            buffer = text
-        else:
-            buffer += " " + text
-
-        prev_top = top
-
-    if buffer:
-        merged.append(buffer.strip())
-    return merged
-
-
-# chuẩn hóa tên sách 
-def normalize_book_name(file_path: str) -> str:
-    # Lấy tên file không có đuôi .pdf
-    name = os.path.splitext(os.path.basename(file_path))[0]
-    # Bỏ ký tự đặc biệt, chỉ giữ chữ, số, khoảng trắng
-    name = re.sub(r"[^0-9A-Za-zÀ-ỹ\s]", "", name)
-    # Đổi khoảng trắng thành dấu _
-    name = re.sub(r"\s+", "_", name)
-    return name.strip("_")
-
-def load_pdf(file_path):
-    data = []
+# =========================
+# Main loader
+# =========================
+def load_document(file_path: str) -> Dict[str, Any]:
     book_name = normalize_book_name(file_path)
-    with pdfplumber.open(file_path) as pdf:
-        for page_num, page in enumerate(pdf.pages, start=1):
-            elements = extract_page_elements(page, file_path, page_num)
+    data = {"text": [], "images": []}
 
-            # Merge lại thành đoạn text hoàn chỉnh
-            merged_content = merge_lines(elements)
-            if merged_content:
-                data.append({"page": page_num, "content": merged_content})
-            # elements = []
-            # # Lấy text thật (text layer)
-            # text = page.extract_text(x_tolerance=2, y_tolerance=2)
-            # if text:
-            #     for line in text.split("\n"):
-            #         if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE): 
-            #             continue
-            #         bbox = page.chars[0] if page.chars else {"top":0}
-            #         elements.append({"text": line, "top": bbox["top"] if "top" in bbox else 0})
-            # # else:
-            # #     # OCR nếu không có text layer
-            # #     pil_image = page.to_image(resolution=300).original
-            #     # ocr_text = pytesseract.image_to_string(pil_image, lang="vie+eng")
-            #     # for i, line in enumerate(ocr_text.split("\n")):
-            #     #     if re.match(r"^\s*trang\s*\d+\s*$", line.strip(), re.IGNORECASE):
-            #     #         continue
-            #     #     elements.append({"text": line, "top": i*20})  # giả định khoảng cách dòng
+    if file_path.endswith(".pdf"):
+        import pdfplumber
+        with pdfplumber.open(file_path) as pdf:
+            for page_num, page in enumerate(pdf.pages, start=1):
+                elements = extract_page_elements(page, file_path, page_num)
 
-            # merged_content = merge_lines(elements)
-            # if merged_content:
-            #     data.append({"page": page_num, "content": merged_content})
+                merged_content = []
+                buffer = ""
+                prev_top = None
+                for el in elements:
+                    text = clean_text(el["text"])
+                    if not text:
+                        continue
+                    top = el["top"]
+                    if prev_top is not None and (top - prev_top > 15 or buffer.endswith(('.', ':', ';'))):
+                        merged_content.append(buffer.strip())
+                        buffer = text
+                    else:
+                        buffer += " " + text
+                    prev_top = top
+                if buffer:
+                    merged_content.append(buffer.strip())
+
+                if merged_content:
+                    data["text"].append({"page": page_num, "content": merged_content})
+
+                img_path = extract_images_from_pdf(page, page_num)
+                ocr_text = pytesseract.image_to_string(Image.open(img_path), lang="vie+eng")
+                data["images"].append({
+                    "path": img_path,
+                    "ocr_text": ocr_text,
+                    "chart_data": {},
+                    "table_data": []
+                })
+
+    elif file_path.endswith(".docx"):
+        doc = Document(file_path)
+        merged_content = [para.text.strip() for para in doc.paragraphs if para.text.strip()]
+        if merged_content:
+            data["text"].append({"page": 1, "content": merged_content})
+
+        image_paths = extract_images_from_docx(file_path)
+        for img in image_paths:
+            ocr_text = pytesseract.image_to_string(Image.open(img), lang="vie+eng")
+            data["images"].append({
+                "path": img,
+                "ocr_text": ocr_text,
+                "chart_data": {},
+                "table_data": []
+            })
+
+    else:
+        raise ValueError("Unsupported file format: must be .pdf or .docx")
+
     final_data = {book_name: data}
     write_next_json(final_data, DB_JSON)
     os.startfile(DB_JSON)
 
-def load_docx(file_path):
-    data = []
-    book_name = normalize_book_name(file_path)
-
-    doc = Document(file_path)
-    page_num = 1  # Word không có khái niệm page, tạm để 1
-    merged_content = []
-
-    for para in doc.paragraphs:
-        text = para.text.strip()
-        if text:
-            merged_content.append(text)
-
-    if merged_content:
-        data.append({"page": page_num, "content": merged_content})
-
-    final_data = {book_name: data}
-    write_next_json(final_data, DB_JSON)
-    os.startfile(DB_JSON)

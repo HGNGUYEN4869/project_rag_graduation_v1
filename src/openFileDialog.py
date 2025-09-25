@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 import os
-from transcript import load_pdf, load_docx  # import hàm load_pdf và load_docx từ file transcript.py
+from transcript import load_document  # import hàm load_document từ file transcript.py
 
 def open_file_dialog():
     root = tk.Tk()
@@ -23,13 +23,7 @@ def open_file_dialog():
         for path in file_paths:
             print(f"   - {path}")
             try:
-                ext = os.path.splitext(path)[1].lower()
-                if ext == ".pdf":
-                    load_pdf(path)
-                elif ext in [".docx", ".doc"]:
-                    load_docx(path)
-                else:
-                    print(f"⚠️ Không hỗ trợ định dạng: {ext}")
+                load_document(path)
             except Exception as e:
                 print(f"❌ Lỗi khi xử lý {path}: {e}")
     else:
