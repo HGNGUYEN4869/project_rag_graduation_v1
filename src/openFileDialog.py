@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 import os
-from transcript import load_pdf, load_docx  # import hàm load_pdf và load_docx từ file transcript.py
+from transcript import load_document  # import hàm load_pdf và load_docx từ file transcript.py
 from chunking import run_chunking
 from enviroment.envGlobal import DB_JSON, DB_AFTER_CHUNK
 
